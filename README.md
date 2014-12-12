@@ -1,4 +1,3 @@
-GitBook Example
+Security Architecture and Engineering
 =======
-
-Welcome in your GitBook!
+> Notes from Columbia University COMS 4187
