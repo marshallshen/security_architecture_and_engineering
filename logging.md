@@ -1,7 +1,5 @@
 # Logging
-
-> ### What is shadowed password file
-> File hashed password is stored, can be only used in `priviledge file`, only `root` can read it.
+> Lots of systems have very good logs, but few have been examined properly..
 
 ### Who can create log files?
 * Many different system components can produce logs
