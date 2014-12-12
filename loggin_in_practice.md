@@ -12,7 +12,7 @@
 * Across machine of one site
 * Across sites
 * Watch out for privacy issue: 
-    * beaware giving up `user information`!
+    * be aware giving up `user information`!
     * What sites users are reaching (HIV, gun purchase)?
 
 #### Types of logs
