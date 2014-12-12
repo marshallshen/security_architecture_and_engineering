@@ -1,8 +1,7 @@
 # The Internet of Things
 ## What is the "Internet of Things"?
-
-- Non-computing device with CPU and connectivity.
-- Thermostats, fitness sensors, smart TVs.
+> Non-computing device with CPU and connectivity:
+Thermostats, fitness sensors, smart TVs.
 
 ### Embedded Systems:
 
@@ -75,6 +74,35 @@ Any component can be attacked: `things`, `hubs`, `servers`, `links`.
 * E.g. if I sell my house to other people, should I still have control over the Nest thermostat of that house?
 * Many smart devices have little or no user interface.
 
+#### Authentication
+* `Thing-to-Hub`, `Hub-to-Server`, `Server-to-Server` authentication.
+* How do Things connected to different Hubs and different Servers authenticate each other?
+* Complex cryptographic protocols may be necessary.
+* If `Things` are corrupted, private data collected by the `Thing` are in danger.
+* E.g. My health monitor is corrupted, falsely reporting that my blood pressure is off the charts, I may falsely go to doctor right away.
+
+#### Access Control
+* E.g. my smart doorknot needs complex access control: who can open the door? How to customize my guests, or cleaning staff coming to my house?
+* In general, setting access control rules properly is very hard.
+* `Authorization should not happen on the servers`.
+
+#### Corrupted Servers
+* `Biggest risk`: corrupted firmware - but can be digitally signed.
+* Can send evil commands to `Things`.
+
+### Protection of loT artchitecture
+
+#### Request Filters
+* Sanity Filters: e.g Nest thermostats reject temperatures that go outside certain ranges.
+* Bad commands / sequences of bad commands continue to emerge as more features on `Thing` are being added.
+
+#### Cryptography
+* Neccessary, but not sufficient.
+* Encrypt message.
+
+#### Intrusion Detection
+* Detect ongoing attacks or other compromised components.
+* E.g. alter the owner if a sanity filter is used.
 
 
 
