@@ -59,11 +59,16 @@
 * E.g. original purpose of a cash register: product manager's copy of all receipts, ensuring nothing gets stolen.
 * Audit logfile statistically: take a random sample of a transaction, follow that transaction into details.
 
-#### Analysis of example file (TODO)
+#### Analysis of example file
 ```
-
+sh              -S       root         _____     0.61 sec
 ```
 Why is the log not so useful? Several assumptions may rise from this line of log.
+* It shows `root` ran a shell, which in turn performed some operation
+  that only root can do.
+* QUESTION: who ran the `root`? A system admin? Me? An attacker?
+* The missing "___" is supposed to be pseduo-tty, there are several
+  possibility how it was set this way. Therefore it's not trustworthy.
 
 > #### How do you know when log file is full?
 Research? Yet because disk is cheap nowadays, such attack is hard to launch.
