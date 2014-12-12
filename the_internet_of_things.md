@@ -26,7 +26,7 @@
 * Passwords: people do not change password on many devices.
 * Ordinary hacking: 
 > SQL injections; (Tesla has embedded Web Browsers). Modern cars have 60-70 CPUs, and they are all inter-connected.
-* Data-driven attacks: malicious `mp3` file.
+* Data-driven attacks: [malicious `mp3` file](http://www.howtogeek.com/127154/how-hackers-can-disguise-malicious-programs-with-fake-file-extensions/).
 
 > Attacks against embedded systems are `harder` to handle: people have less knowledge on password; people don't know about installing patches of embedded system (it's worse than computer attack in many ways). 
 
@@ -43,11 +43,38 @@
 
 ### Home loT
 
-* Local managers (which may be apps on a phone or computer) talk to hubs.
+* Local managers (maybe a phone app) talk to hubs.
 * Hubs talk to devices via private protocols.
 * Hubs talk to vendor servers.
 * Things may talk to each other via hubs, but probably use the `vendor servers`.
 * `Vendor servers` may talk to each other.
+
+### Vendor Servers
+* Many devices cannot be called directly (e.g. Nest thermostats).
+* Devices may not have CPU power for some tasks (e.g., voice recognition on Amazon Echo, speech recoginition is costly task, Echo sends data to server).
+* Vendors like to gather data.
+
+### Privacy and loT
+> Please be aware that if your spoken words include personal or other sensitive information, that information will be among the data captured and transmitted to a third party.
+
+* [Smart TV that records personal data](http://www.brennancenter.org/analysis/im-terrified-my-new-tv-why-im-scared-turn-thing)
+
+### Security of loT architecture
+
+Any component can be attacked: `things`, `hubs`, `servers`, `links`.
+
+> How to hack each component? Who can hack (component)? What are the consequences (of component being hacked)?
+
+#### Link Security
+* E.g. home WiFi networks
+* Easy to encrypt links
+* Primary source of a compromised link: devices at either end of I/O, say, a corrupted firmware.
+
+#### Ownership
+* E.g. who can control my Nest thermostat?
+* E.g. if I sell my house to other people, should I still have control over the Nest thermostat of that house?
+* Many smart devices have little or no user interface.
+
 
 
 
