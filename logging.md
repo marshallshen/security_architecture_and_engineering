@@ -15,13 +15,12 @@ TODO: links
 TODO: links
 
 ### Lesson: good log file facilitates good protection.
-> Log files are "extraneous": you don't need them when things are going well.
-
-> Run cron jobs in log file to detect malicious acts.
-
+* Log files are "extraneous": you don't need them when things are going well.
+* Run cron jobs in log file to detect malicious acts.
 
 
-> Shadowed password file: file hashed password is stored, can be only used in `priviledge file`, only `root` can read it.
+> ### What is shadowed password file
+> File hashed password is stored, can be only used in `priviledge file`, only `root` can read it.
 
 ### Location of log files
 * Many different system components can produce logs
@@ -42,10 +41,31 @@ TODO: links
     * Ananomalous patterns: `too many misses` or `too-long URLs`, which can lead to buffer overflow.
 * Correlate log files across different component $$\rightarrow$$ making timestamp consistent across components is super important $$\rightarrow$$ `UTC` across.
 
-> Attacks are usually launched across all IP addresses and try to compromise any vulnerable machines it can find.
+#### Log correlation
+* Across machine of one site
+* Across sites
+* Watch out for privacy issue: 
+    * beaware giving up `user information`!
+    * What sites users are reaching (HIV, gun purchase)?
 
-## Case study (TODO)
-> Attack against PHP 4 web server
+#### Types of logs
+* Routing processing
+* Error message
+* Authentication events
+* Request / Reponse
+
+#### Processing logs
+* Primary rule: retain raw data as long as possible (Do not delete log data!).
+* Be suspicious: log files often contain enemy-supplied data.
+* Be `especially careful` if you use a web browser to look at log file data: it may contain JavaScript-based pop-ups.
+* Crunch log down to manageable size; pick out interesting items.
+
+#### Storing logs
+* Keep logs as flat files (for small sites)
+* If possible, store log files in database, it provides sophisticated queries (give me log lines from 12pm to 13pm with words 'Authentication failed').
+* Today hardware is cheap enough for services to store all logs. 
+
+x
 
 
 
