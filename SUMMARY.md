@@ -9,4 +9,5 @@
    * [Loggin in practice](loggin_in_practice.md)
    * [Log Incidents](log_incidents.md)
    * [Case study: PHP4 web server attack](case_study_php4_web_server_attack.md)
+* After An Attack
 
