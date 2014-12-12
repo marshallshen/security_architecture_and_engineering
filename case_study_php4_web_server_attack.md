@@ -4,3 +4,5 @@
 * Bad requests (with authentication failure).
 * Anything mentioning `/etc/`, where many sensitive information is stored.
 * Attempts to execute commands for functions other than emails and netnews.
+
+
