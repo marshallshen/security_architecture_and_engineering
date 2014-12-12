@@ -46,10 +46,24 @@
 * If possible, store log files in database, it provides sophisticated queries (give me log lines from 12pm to 13pm with words 'Authentication failed').
 * Today hardware is cheap enough for services to store all logs. 
 
-### Log patterns to look for
+#### Log patterns to look for
 * Bad requests (with authentication failure).
 * Anything mentioning `/etc/`, where many sensitive information is stored.
 * Attempts to execute commands for functions other than emails and netnews.
+
+#### Limits of full-traffic logs
+* Capturing every packet is hard.
+* Solution: set up web proxy (block port 80, 443), store logs in web proxy.
+
+#### Security of log files
+* Needs C(confidentiality) I (Integrity) A (Availability).
+* Logfiles need to watch out for personal privacy (e.g password).
+* `Confidentiality`: Logfiles need to be read-protected.
+* `Integrity`: make sure enemy can't tamper with your logs; it is a primary target for many hackers!
+* `Availability`: one attack is to fill up log area with innocent garbage, when the log file is full, launch the real attack.
+
+> How do you know when log file is full?
+Research? Yet because disk is cheap nowadays, such attack is hard to launch.
 
 
 
