@@ -5,5 +5,5 @@
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
    * [Internet of Things Architecture](internet_of_things_architecture.md)
    * [Case study: Thermostat](case_study_thermostat.md)
-* Logging
+* [Logging](logging.md)
 
