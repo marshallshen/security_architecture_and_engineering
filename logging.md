@@ -26,7 +26,7 @@ TODO: links
 * Many different system components can produce logs
 * Logs can be expensive, and aren't enabled by default.
 
-#### Web logs (what to look for?)
+#### Web logs
 * Timestamp, with time zone
 * IP address
 * `Request can lie`: sophisticated attacker can fake some information, like what machine this request is sending from?
