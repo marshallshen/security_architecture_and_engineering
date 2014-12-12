@@ -20,6 +20,8 @@
 * `Always` log session start/end.
 * Be aware trade off between "how complete the log files are" vs. "space and performance (easy to search?) of log file".
 
+> ###Side note: what is shadowed password file?
+> File hashed password is stored, can be only used in `priviledge file`, only `root` can read it.
 
 
 
