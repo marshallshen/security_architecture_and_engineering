@@ -40,6 +40,7 @@ TODO: links
     * Anything mentioning `/etc/`, where many sensitive information is stored.
     * Attempts to execute commands for functions other than emails and netnews.
     * Ananomalous patterns: `too many misses` or `too-long URLs`, which can lead to buffer overflow.
+* Correlate log files across different component $$\rightarrow$$ making timestamp consistent across components is super important $$\rightarrow$$ `UTC` across.
 
 > Attacks are usually launched across all IP addresses and try to compromise any vulnerable machines it can find.
 
