@@ -25,3 +25,18 @@ TODO: links
 * Attempts to execute commands for functions other than emails and netnews.
 
 > Shadowed password file: file hashed password is stored, can be only used in `priviledge file`, only `root` can read it.
+
+### Location of log files
+* Many different system components can produce logs
+* Logs can be expensive, and aren't enabled by default.
+
+#### Web logs (what to look for?)
+* Timestamp, with time zone
+* IP address
+* `Request can lie`: sophisticated attacker can fake some information, like what machine this request is sending from?
+
+> Attacks are usually launched across all IP addresses and try to compromise any vulnerable machines it can find.
+
+
+
+
