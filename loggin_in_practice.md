@@ -69,5 +69,4 @@ Why is the log not so useful? Several assumptions may rise from this line of log
 Research? Yet because disk is cheap nowadays, such attack is hard to launch.
 
 > #### What if you can't log everything?
-Distribute log file into different servers.. Use log file analyzer to tie things back together.
-
+Distribute log file into different servers.. Use log file analyzer to tie things back together (similar to divide up database table into multiple tables.).
