@@ -1,5 +1,9 @@
 # Incidents resolved by logs
 
+### Wikileaks
+
+### Snowden Files
+
 ### Incident 1: Shadow Hawk
 * An attacker in name of "Shadow Hawk", FBI tracked him down via log files.
 * Used `uucp`: dial-up file transfer from `Unix`.
