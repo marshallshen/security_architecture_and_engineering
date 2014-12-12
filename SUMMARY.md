@@ -6,4 +6,5 @@
    * [Internet of Things Architecture](internet_of_things_architecture.md)
    * [Case study: Thermostat](case_study_thermostat.md)
 * [Logging](logging.md)
+   * Case study: PHP4 web server attack
 
