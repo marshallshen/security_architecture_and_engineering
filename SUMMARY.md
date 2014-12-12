@@ -6,6 +6,6 @@
    * [Internet of Things Architecture](internet_of_things_architecture.md)
    * [Case study: Thermostat](case_study_thermostat.md)
 * [Logging](logging.md)
-   * Incidents resolved by logs
+   * [Incidents resolved by logs](incidents_resolved_by_logs.md)
    * [Case study: PHP4 web server attack](case_study_php4_web_server_attack.md)
 
