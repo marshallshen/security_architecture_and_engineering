@@ -65,6 +65,10 @@ TODO: links
 * If possible, store log files in database, it provides sophisticated queries (give me log lines from 12pm to 13pm with words 'Authentication failed').
 * Today hardware is cheap enough for services to store all logs. 
 
+### Log patterns to look for
+* Bad requests (with authentication failure).
+* Anything mentioning `/etc/`, where many sensitive information is stored.
+* Attempts to execute commands for functions other than emails and netnews.
 
 
 
