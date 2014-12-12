@@ -19,10 +19,7 @@ TODO: links
 
 > Run cron jobs in log file to detect malicious acts.
 
-### What patterns to look for
-* Bad requests (with authentication failure).
-* Anything mentioning `/etc/`, where many sensitive information is stored.
-* Attempts to execute commands for functions other than emails and netnews.
+
 
 > Shadowed password file: file hashed password is stored, can be only used in `priviledge file`, only `root` can read it.
 
@@ -35,7 +32,20 @@ TODO: links
 * IP address
 * `Request can lie`: sophisticated attacker can fake some information, like what machine this request is sending from?
 
+#### Problems of logging
+* How to detect problems
+* Need log file scanners to pick out `interesting` patterns
+* What are some `interesting` patterns?
+    * Bad requests (with authentication failure).
+    * Anything mentioning `/etc/`, where many sensitive information is stored.
+    * Attempts to execute commands for functions other than emails and netnews.
+    * Ananomalous patterns: `too many misses` or `too-long URLs`, which can lead to buffer overflow.
+
 > Attacks are usually launched across all IP addresses and try to compromise any vulnerable machines it can find.
+
+## Case study (TODO)
+> Attack against PHP 4 web server
+
 
 
 
