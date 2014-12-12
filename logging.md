@@ -64,6 +64,10 @@
 * `Integrity`: make sure enemy can't tamper with your logs; it is a primary target for many hackers!
 * `Availability`: one attack is to fill up log area with innocent garbage, when the log file is full, launch the real attack.
 
+#### Secure logs
+* Protocol (with crypto) exists for secure logging.
+* Log files are `parts of systems`: the file needs to be consistent and easy to collaborate with other parts of the systems.
+
 > #### How do you know when log file is full?
 Research? Yet because disk is cheap nowadays, such attack is hard to launch.
 
