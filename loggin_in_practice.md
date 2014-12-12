@@ -54,6 +54,11 @@
 * `Integrity`: make sure enemy can't tamper with your logs; it is a primary target for many hackers!
 * `Availability`: one attack is to fill up log area with innocent garbage, when the log file is full, launch the real attack.
 
+#### Audit logfile
+* Prevent users from doing bad things.
+* E.g. original purpose of a cash register: product manager's copy of all receipts, ensuring nothing gets stolen.
+* Audit logfile statistically: take a random sample of a transaction, follow that transaction into details.
+
 #### Analysis of example file (TODO)
 ```
 
@@ -62,3 +67,7 @@ Why is the log not so useful? Several assumptions may rise from this line of log
 
 > #### How do you know when log file is full?
 Research? Yet because disk is cheap nowadays, such attack is hard to launch.
+
+> #### What if you can't log everything?
+Distribute log file into different servers.. Use log file analyzer to tie things back together.
+
