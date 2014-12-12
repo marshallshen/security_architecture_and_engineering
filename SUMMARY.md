@@ -7,4 +7,5 @@
    * [Case study: Thermostat](case_study_thermostat.md)
 * [Logging](logging.md)
    * [Case study: PHP4 web server attack](case_study_php4_web_server_attack.md)
+   * Incidents resolved by logs
 
