@@ -65,8 +65,6 @@ TODO: links
 * If possible, store log files in database, it provides sophisticated queries (give me log lines from 12pm to 13pm with words 'Authentication failed').
 * Today hardware is cheap enough for services to store all logs. 
 
-x
-
 
 
 
