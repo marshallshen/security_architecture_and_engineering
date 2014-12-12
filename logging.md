@@ -42,9 +42,11 @@
 * Crunch log down to manageable size; pick out interesting items.
 
 #### Storing logs
-* Keep logs as flat files (for small sites)
+* Keep logs as flat files (for small sites).
 * If possible, store log files in database, it provides sophisticated queries (give me log lines from 12pm to 13pm with words 'Authentication failed').
 * Today hardware is cheap enough for services to store all logs. 
+* Storing logs at local machine is dangerous: if attacker gets into the machine, logs can be wiped out. 
+* `Use a log server`: machine sends log packets to log server, but do not have permission to go into the log server.
 
 #### Log patterns to look for
 * Bad requests (with authentication failure).
@@ -62,8 +64,9 @@
 * `Integrity`: make sure enemy can't tamper with your logs; it is a primary target for many hackers!
 * `Availability`: one attack is to fill up log area with innocent garbage, when the log file is full, launch the real attack.
 
-> How do you know when log file is full?
+> #### How do you know when log file is full?
 Research? Yet because disk is cheap nowadays, such attack is hard to launch.
+
 
 
 
