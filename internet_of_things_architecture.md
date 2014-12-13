@@ -1,12 +1,12 @@
 ## Internet of Things (IoT) Architecture
-
+![Architecture overview 1][images/IOT_1.png]
 * Things talk to `Hubs`.
 * `Hubs` talk to `Vendor Sever`.
 * `Manger` talk to `Things` via `Hubs`.
 * Things don't always have right interface with Internet.
 
 ### Home IoT
-
+![Architecture overview 2][images/IOT_2.png]
 * Local managers (maybe a phone app) talk to hubs.
 * Hubs talk to devices via private protocols.
 * Hubs talk to vendor servers.
