@@ -25,4 +25,9 @@ The blacksmith is successful whose clients die of old age.
 * Whom should be selected? A former hacker? Will they obey to all the compliance?
 
 ### Hacking Ethics
-> When you have the permission of the person responsible for the system to attack.
+> When is hacking `ethical`?
+
+> Under exactly one circumstance: when you have the permission of the person responsible for the system you’re attacking.
+
+
+
