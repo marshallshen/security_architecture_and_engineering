@@ -6,7 +6,7 @@
    * Analyze individual programs
    * Analyze overall system
    * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
-   * [Analysis for other attacks](analysis_for_other_attacks.md)
+   * [Tools part 2: fuzzing and more](tools_part_2_fuzzing_and_more.md)
    * [Reconnaissance](reconnaissance.md)
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
