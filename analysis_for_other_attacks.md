@@ -1,7 +1,5 @@
 # Analysis for other attacks
 
-# Other analysis
-
 ### TOCTTOU races
 `stat()` vs. `fstat()`
 
