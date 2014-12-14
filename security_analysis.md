@@ -1,7 +1,14 @@
 # Security Analysis
 
-> Some design decisions are very hard to correct later on.
+## Attacking Things
+> It takes a thief to catch a thief
 
+## Construction vs. Destruction
+* An architect and a demonlition expert need to know about.
+* Architect balance costs, 
+* Demolition engineer works with what he got, what he needs is very different.
+
+> Some design decisions are very hard to correct later on.
 > Have frequent reviews.
 
 > Early reviews: broad architecture
@@ -10,9 +17,8 @@
 
 
 ## What to analyze?
-> Individual programs
-
-> Overall system flow
+* Individual programs
+* Overall system flow
 
 ## `date` command
 ```
