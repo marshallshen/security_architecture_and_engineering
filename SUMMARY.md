@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Security Analysis](security_analysis.md)
+   * Construction vs. Destruction
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
    * [Internet of Things Architecture](internet_of_things_architecture.md)
