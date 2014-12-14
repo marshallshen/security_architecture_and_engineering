@@ -1,4 +1,4 @@
-# Tools part 2: fuzzing and more
+# Tools part 2: Fuzzing and more
 
 ### TOCTTOU races
 > TOCTTOU: time of check to time of use
