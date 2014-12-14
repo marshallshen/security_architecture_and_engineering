@@ -49,6 +49,13 @@
     ```
 ![flow analysis]()
 
+## Digression: Run-Time Checks
+* Best example: Perl's "taint mode"
+    * Data from untrustworthy sources: command-line arguments, environment variables, file input, etc. -- is marked as "tainted".
+    * Any variable derived from a tainted variable is marked “tainted”.
+    * Certain operations cannot be performed with tainted input; a run-time exception is generated.
+    * Read [more](http://gunther.web66.com/FAQS/taintmode.html) on Perl's taint mode.
+
 ## Individual programs are hard to analyze
 * Subprocedures make life hard.
 * Most routines are called from many different places, with different arguments.
