@@ -1,7 +1,7 @@
 # System calls for analysis
 
 ## `mount` command
-> Attach some device as a subtree at some point in the file system
+> Attach some device as a subtree at some point in the file system. `home/` is a system directory that was `mount` by system call.
 
 ```bash
 root@mshen: ls /mnt
