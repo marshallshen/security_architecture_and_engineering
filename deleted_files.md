@@ -10,3 +10,8 @@
 * Example: C program has many "{" and "}"; log files have timestamps!
 * Look for matches between the end of one block and the start of the next.
 * Look for syntactically correct statement.
+
+### Are deleted files better for forensics?
+* A normal file can be overwritten easily
+* A deleted file can't be touched
+* Sometimes deleted files are more likely to be intact, which is more useful when analyzing the system.
