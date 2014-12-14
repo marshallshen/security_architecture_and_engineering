@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Security Analysis
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
    * [Internet of Things Architecture](internet_of_things_architecture.md)
@@ -20,5 +21,4 @@
    * [Router Link Weakness](router_link_weakness.md)
    * [Remote Access](remote_access.md)
    * [General Principle](general_principle.md)
-* Security Analysis
 
