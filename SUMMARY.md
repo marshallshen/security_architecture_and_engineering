@@ -10,5 +10,5 @@
    * [Log Incidents](log_incidents.md)
    * [Case study: PHP4 web server attack](case_study_php4_web_server_attack.md)
 * [After An Attack](after_an_attack.md)
-   * Analyze a hacked system
+   * [Analyze a hacked system](analyze_a_hacked_system.md)
 
