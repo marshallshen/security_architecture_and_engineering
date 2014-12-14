@@ -1,6 +1,5 @@
 # Security Analysis
 
-## Analyzing System
 > Some design decisions are very hard to correct later on.
 
 > Have frequent reviews.
@@ -10,7 +9,7 @@
 > Later reviews: implementation details
 
 
-## Types of analysis
+## What to analyze?
 > Individual programs
 
 > Overall system flow
