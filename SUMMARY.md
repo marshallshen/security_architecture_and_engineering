@@ -12,4 +12,5 @@
 * [After An Attack](after_an_attack.md)
    * [Analyze a hacked system](analyze_a_hacked_system.md)
    * [Deleted Files](deleted_files.md)
+   * Monitor Intrusion
 
