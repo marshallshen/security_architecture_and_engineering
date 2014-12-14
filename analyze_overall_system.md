@@ -5,3 +5,5 @@
 * Finding bottlenecks is important, however programmers' guess are `often wrong`.
 * Major performance improvements generally come from algorithmic changes, not from minor tweaks.
 * Build first, then measure, then optimize — but don’t surrender correctness.
+
+## System Elements
