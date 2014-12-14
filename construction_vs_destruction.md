@@ -5,6 +5,16 @@
 * Unlike architects, someone is trying to break the structure.
 * Some practice: build "tiger team": hire `white-hat` hackers to attack the system.
 
+> If we perceive our role aright, we then see more clearly the proper
+criterion for success: a toolmaker succeeds as, and only as, the users of
+his tools succeed with his aid. However shining the blade, however
+jeweled the hilt, however perfect the heft, a sword is tested only by cutting.
+The blacksmith is successful whose clients die of old age.
+
+> The Mythical Man-Month
+
+> Frederick P Brooks, Jr.
+
 ## Hire tiger team
 ### Problems of tiger teams
 > Imagine a tigner team is hired to assess systems of governments..
