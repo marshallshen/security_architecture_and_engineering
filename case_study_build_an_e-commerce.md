@@ -15,7 +15,7 @@
 ## How to connect pieces?
 * Which pieces should be separated?
 * E.g A billing system: 4 different database..
-    ![Web server Complex]()
+    ![Web server Complex](images/Sys_1.png)
 
 ## Why so complex?
 * Availability - primarily against ordinary fialtures.
