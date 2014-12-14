@@ -15,4 +15,5 @@
    * [Monitor Intrusion](monitor_intrusion.md)
    * [Conclusion](conclusion.md)
 * [System Structure](system_structure.md)
+   * Case study: build an e-commerce
 
