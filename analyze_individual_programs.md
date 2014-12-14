@@ -4,9 +4,14 @@
 * Typical errors: buffer overflow, race conditions, etc.
     * Buffer overflow candidates: `gets()`, `strcpy()`, `sprintf()`..
     * TOCTTOU races: `access()`, `stat()` other than `fstat()`..
+    * Check declaration, should use `malloc`:
+
+    ```
+    char buf[1024]; // bad declaration
+    ```
     * Not as easy as it sounds -- buffer sizes not always obvious
 
-    ```c
+    ```
     void buildmsg(char *dst, char *s, char *msg){
     sprintf(dst, "Error: %s: %s\n", s, msg);
     return;
