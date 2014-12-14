@@ -27,7 +27,7 @@ The blacksmith is successful whose clients die of old age.
 ### Hacking Ethics
 > When is hacking `ethical`?
 
-> Under exactly one circumstance: when you have the permission of the person responsible for the system you’re attacking.
+> Under exactly one circumstance: when you have the permission of the person responsible for the system you’re attacking. `This is a very sharp line`.
 
 
 
