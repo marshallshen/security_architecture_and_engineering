@@ -61,6 +61,22 @@ Generally, it's not possible to cleanse compromised system. Usually `reformat yo
 * Create a cryptographic checksum of each file.
 * To detect changes, the program re-calculate the checksum.
 * Easier said than done.
+> Can you trust master's checksum? Can you trust the software that calculates the new checksum?
+
+#### Linux case study:
+* A (linux) loadable kernel module intercepted file system operations.
+* If pid 1 tried to open `/sbin/init`, it got the Trojan horse version.
+* If any other process pid open `/sbin/init`, it got the real version.
+* Tripwire wouldn't detect this substitution!
+
+### Assurance
+> It's not just fixing things, it's `knowing` that you've fixed them (a very difficult problem).
+
+### Analyzing a hacked system
+* `Never` try to work with a live disk.
+* `Make a copy`: preferably an image copy.
+* `Don't use anything` that will change file access times.
+
 
 
 
