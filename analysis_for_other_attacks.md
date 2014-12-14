@@ -9,8 +9,6 @@
 
 The major reason is security: if you first `stat()` the file and then `open()` it, there is a small window of time in between where the file could have been modified (or had its permissions changed, etc) or replaced with a symlink.
 
-### Disassembler
-
 ### Fuzzing
 > Single most powerful and used fuzzing tools; used by testers & attackers.
 
@@ -21,8 +19,16 @@ The major reason is security: if you first `stat()` the file and then `open()` i
 * Black box: smart, but with no validation of code coverage.
 * White box: systematically test different code paths.
 
-### Physical Attacks
-> Physical break in to the building
+Read more on [fuzz testing](http://en.wikipedia.org/wiki/Fuzz_testing).
 
-### Blocking Reconnaissance
-> Detect early: is anyone probing us?
+### High level attacks from Tiger Team
+* Network attacks: DDos attack.
+* Social attacks: social engineering; talk people into giving you what you want.
+* Physical attacks: e.g. physically break into the building, say, a bank.
+* Infiltration: get a low-level job at targeted company, become insider, launch insider attack.
+
+### Conclusions
+* Programs leak a lot of data while executing.
+* Run `strace` and `ltrace` are powerful, even if the executable is read-protected.
+
+
