@@ -5,7 +5,7 @@
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * Analyze individual programs
    * Analyze overall system
-   * [System calls for analysis](system_calls_for_analysis.md)
+   * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
    * [Analysis for other attacks](analysis_for_other_attacks.md)
    * [Reconnaissance](reconnaissance.md)
 * [The Internet of Things](the_internet_of_things.md)
