@@ -72,10 +72,7 @@ Generally, it's not possible to cleanse compromised system. Usually `reformat yo
 ### Assurance
 > It's not just fixing things, it's `knowing` that you've fixed them (a very difficult problem).
 
-### Analyzing a hacked system
-* `Never` try to work with a live disk.
-* `Make a copy`: preferably an image copy.
-* `Don't use anything` that will change file access times.
+
 
 
 
