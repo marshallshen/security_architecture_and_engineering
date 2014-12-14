@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
-   * Analyze individual programs
+   * [Analyze individual programs](analyze_individual_programs.md)
    * Analyze overall system
    * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
    * [Tools part 2: fuzzing and more](tools_part_2_fuzzing_and_more.md)
