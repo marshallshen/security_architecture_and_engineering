@@ -26,13 +26,34 @@
 * You can write test cases $$\iff$$ there's something to test for.
     * `grep` for suspect functions.
 
-## Why are individual programs hard to analyze?
+## Flow Analysis
+* We need to understand the paths to each suspect call.
+* We can use compilers to help us understand complex paths (analyze call stacks, to the low level).
+* Call graph:
+    ```
+    $ cflow env/*.c
+    
+    main() <int main (int argc,char **argv) at env/env.c:55>:
+
+    setlocale()
+    getopt()
+    usage() <void usage (void) at env/env.c:94>:
+    fprintf()
+    exit()
+    strchr()
+    setenv()
+    execvp()
+    err()
+    printf()
+    exit()
+    ```
+![flow analysis]()
+
+## Individual programs are hard to analyze
 * Subprocedures make life hard.
 * Most routines are called from many different places, with different arguments.
 * Arguments passed may be arguments from a higher-level procedure.
 * Buffers may be dynamically allocated.
-
-
 
 
 
