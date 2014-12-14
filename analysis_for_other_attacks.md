@@ -1,6 +1,8 @@
 # Analysis for other attacks
 
 ### TOCTTOU races
+> TOCTTOU: time of check to time of use
+
 `stat()` vs. `fstat()`
 
 `stat()` works on filenames, while `fstat()` works on file descriptors.
@@ -11,6 +13,13 @@ The major reason is security: if you first `stat()` the file and then `open()` i
 
 ### Fuzzing
 > Single most powerful and used fuzzing tools.
+
+> Trying different inputs to break system, `systematically`.
+* Random: no knowledge of input formats.
+* Smart: handles input formats, checksum, etc.
+* Black box: smart, but with no validation of code coverage.
+* White box: systematically test different code paths.
+
 
 > A way to find input-parsing bugs by randomly or systematically modifying input streams.
 
