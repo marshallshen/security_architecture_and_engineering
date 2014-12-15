@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Confinements
+* [Confinements](confinements.md)
 * Program Structure
    * [Email](email.md)
    * [Web browser](web_browser.md)
