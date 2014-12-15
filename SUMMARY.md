@@ -8,6 +8,7 @@
    * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
    * [Tools part 2: fuzzing and more](tools_part_2_fuzzing_and_more.md)
    * [Reconnaissance](reconnaissance.md)
+   * Software Engineering Code of Ethics
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
    * [Internet of Things Architecture](internet_of_things_architecture.md)
