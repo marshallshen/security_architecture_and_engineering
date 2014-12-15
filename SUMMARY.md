@@ -6,6 +6,7 @@
    * [Web browser](web_browser.md)
 * [(Web Service) Architecture](web_service_architecture.md)
 * [Confinements](confinements.md)
+* Programming Structure
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * [Analyze individual programs](analyze_individual_programs.md)
@@ -33,5 +34,4 @@
    * [Router Link Weakness](router_link_weakness.md)
    * [Remote Access](remote_access.md)
    * [General Principle](general_principle.md)
-* Programming Structure
 
