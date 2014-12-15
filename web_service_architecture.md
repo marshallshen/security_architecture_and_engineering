@@ -9,6 +9,10 @@
 
 *What UIDs does the server run under?*
 
+> Difference between `Effective UID` and `Real UID`
+
+> Normally these are the same, but if a program with a set-uid bit set is run, then while the real UID remains that of the user who ran it, the effective UID is that of the user who owns the file.
+
 ## Berkely history of web
 - Most Unix system reserve < 1024 for root
 - Web servers listen on port 80, so something `HAS TO` be root in order for web server to start running.
