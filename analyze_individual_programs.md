@@ -1,4 +1,5 @@
 # Analyze individual programs
+> Complexity is the enemy of security.
 
 ## What to look for?
 * Typical errors: buffer overflow, race conditions, etc.
