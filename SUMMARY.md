@@ -8,7 +8,7 @@
 * [Confinements](confinements.md)
 * [Program Structure](program_structure.md)
    * [Case study: 4.3BSD FTP Daemon](case_study_43bsd_ftp_daemon.md)
-       * Attack FTP
+       * [Attack FTP](attack_ftp.md)
        * Fix FTP
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
