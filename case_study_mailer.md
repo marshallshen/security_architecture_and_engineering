@@ -10,3 +10,5 @@
 
 > `Question` Suppose the mailer can encrypt, decrypt, and
 digitally sign email. What privilege level should be used for those operations?
+
+### Email Security
