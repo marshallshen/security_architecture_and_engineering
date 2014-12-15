@@ -1,11 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [(Web Service) Architecture](web_service_architecture.md)
-* [Confinements](confinements.md)
 * [Secure Programming](secure_programming.md)
    * [Email](email.md)
    * [Web browser](web_browser.md)
+* [(Web Service) Architecture](web_service_architecture.md)
+* [Confinements](confinements.md)
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * [Analyze individual programs](analyze_individual_programs.md)
