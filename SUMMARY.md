@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Web Service Architecture
+* (Web Service) Architecture
 * [Confinements](confinements.md)
 * Program Structure
    * [Email](email.md)
