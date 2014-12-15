@@ -10,3 +10,7 @@
 * Demonstrate exactly how an enemy could get in.
 * Estimate the likelihood of the attack.
 * Estimate the business loss if it happens.
+
+#### Making security recommendations is often a political process.
+* Security is engineering; it's not an absolute goal to be pursued at any cost.
+* There are always legacy systems you can't touch.
