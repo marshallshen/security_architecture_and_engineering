@@ -75,7 +75,22 @@ cmd : USER SP username CRLF
 | CWD check_login SP pathname CRLF # pseudo-rule, just a hook for some C code that checks the logged in flag
 | ...
 ```
-
+How to find pathname?
+```
+pathname : STRING
+= {
+if ($1 && strncmp((char *) $1, "˜", 1) == 0) {
+    $$ = (int)*glob((char *) $1);
+    if (globerr != NULL) {
+        reply(550, globerr);
+        $$ = NULL;
+    }
+    free((char *) $1);
+} else
+    $$ = $1;
+}
+;
+```
 
 
 
