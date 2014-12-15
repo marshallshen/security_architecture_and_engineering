@@ -11,18 +11,17 @@
 > `Question` Suppose the mailer can encrypt, decrypt, and
 digitally sign email. What privilege level should be used for those operations.
 
-### Encrypt private key with user-typed passphrase
-> Sometimes we can crypto with hardware assistance
-
-## Where are the decryption and sigining done?
-> When is encryption done?
-
-> When is decryption done?
+### Encryption and Decryption
+* Encrypt private key with user-typed passphrase
+    > Sometimes we can crypto with hardware assistance
+* Where are the decryption and sigining done?
+* When is encryption done?
+* When is decryption done?
     - Think about environment
     - Decryption should `NOT` know the identity of sender, don't want to expose user signature.
     - Neither encryption nor decryption should happen at the Geataway.
-> Should emails content be stored as `encrypted`?
-    - Some content (eg. corporate emails), are public content
+* Some content (eg. corporate emails), are public content
+    > Should emails content be stored as `encrypted`?
 
 ## Signing message
 > Do I need to sign `every` message?
@@ -69,8 +68,7 @@ digitally sign email. What privilege level should be used for those operations.
     - Enhance security by adding more process
     - More process means more inconvenience
 
-
-
-
-
 TODO: DKIM (Anti-spam mechanism)
+
+
+
