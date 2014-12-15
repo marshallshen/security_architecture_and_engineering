@@ -16,6 +16,12 @@
 * Permit login with username and password
 
 ### Sample FTP session
+* Status code
+    * 331: only one command can allow: PASS
+    * 200s: success
+    * 100s: intermediate states
+    * 400s and 500s: temporary and permanent failure
+
 ```
 $ ftp ftp.netbsd.org
 220 ftp.NetBSD.org FTP server (NetBSD-ftpd 20040809) ready.
@@ -30,4 +36,6 @@ LIST
 FBAR
 500 ’FBAR’: command not understood
 ```
+
+
 
