@@ -10,7 +10,7 @@
    * [Case study: 4.3BSD FTP Daemon](case_study_43bsd_ftp_daemon.md)
        * [Attack FTP](attack_ftp.md)
        * [Fix FTP](fix_ftp.md)
-       * Root privilege
+       * [Root privilege](root_privilege.md)
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * [Analyze individual programs](analyze_individual_programs.md)
