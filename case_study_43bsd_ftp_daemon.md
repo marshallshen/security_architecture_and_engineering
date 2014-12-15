@@ -37,5 +37,48 @@ FBAR
 500 ’FBAR’: command not understood
 ```
 
+### Inside FTP
+* Read one line at a time
+* Use `YACC grammar`
+* Logged in check is part of the grammar
+* Use `chroot()` to contain anonymouse FTP users
+
+#### YACC Grammar
+> Pattern matching
+```
+cmd : USER SP username CRLF
+| PASS SP password CRLF
+| CWD SP pathname CRLF
+| ...
+```
+> Problem: the concept is good, but the code was buggy.
+
+### FTP Attack
+Consider the following command sequence:
+```
+USER anonymous # set anonlymous login flag, retrieve anonymous entry from /etc/passwd
+CWD ˜root
+PASS anything
+```
+The trick: the `legal sequence` is:
+```
+USER
+PASS
+session commands
+```
+`ftpd` grammar treats all commands the same, including `USER` and `PASS`.
+
+A closer look at the Actual YACC Grammar:
+```
+cmd : USER SP username CRLF
+| PASS SP password CRLF
+| CWD check_login SP pathname CRLF # pseudo-rule, just a hook for some C code that checks the logged in flag
+| ...
+```
+
+
+
+
+
 
 
