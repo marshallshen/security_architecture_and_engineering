@@ -52,7 +52,7 @@
     printf()
     exit()
     ```
-![flow analysis]()
+![flow analysis](images/flow_analysis.png)
 
 ## Digression: Run-Time Checks
 * Best example: Perl's "taint mode"
