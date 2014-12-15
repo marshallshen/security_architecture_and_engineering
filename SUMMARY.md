@@ -5,10 +5,10 @@
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * [Analyze individual programs](analyze_individual_programs.md)
    * [Analyze overall system](analyze_overall_system.md)
+   * Software Engineering Code of Ethics
    * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
    * [Tools part 2: fuzzing and more](tools_part_2_fuzzing_and_more.md)
    * [Reconnaissance](reconnaissance.md)
-   * Software Engineering Code of Ethics
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
    * [Internet of Things Architecture](internet_of_things_architecture.md)
