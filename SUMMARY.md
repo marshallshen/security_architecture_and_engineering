@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * Program Structure
-   * Emails
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * [Analyze individual programs](analyze_individual_programs.md)
