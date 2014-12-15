@@ -12,6 +12,7 @@
        * [Fix FTP](fix_ftp.md)
        * [Root privilege](root_privilege.md)
    * [Case study: mailer](case_study_mailer.md)
+   * Case study: Web Browser
 * [Security Analysis](security_analysis.md)
    * [Construction vs. Destruction](construction_vs_destruction.md)
    * [Analyze individual programs](analyze_individual_programs.md)
