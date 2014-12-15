@@ -1,2 +1,2 @@
-# Programming Structure
+# Program Structure
 
