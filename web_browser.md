@@ -1,13 +1,10 @@
 # Web browser
 
-# Web browser
-## Challenging:
-> Structural separation of programs
-
-> Backwards compatibility
-
-Windows Vista and IE 6
-> Windows started to use `sandboxing`, so browser has less priviledges.
+## Challenges:
+* Structural separation of programs
+* Backwards compatibility
+    * E.g Windows Vista and IE 6
+    > Windows started to use `sandboxing`, so browser has less priviledges.
 
 ## Components of web browser security
 1. User Account Control (UAC)
