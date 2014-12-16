@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Security and Usability
 * [Physical Security](physical_security.md)
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
@@ -14,7 +15,6 @@
    * [Case study: 4.3BSD FTP Daemon](case_study_43bsd_ftp_daemon.md)
        * [Attack FTP](attack_ftp.md)
        * [Fix FTP](fix_ftp.md)
-       * Security and Usability
        * [Root privilege](root_privilege.md)
    * [Case study: mailer](case_study_mailer.md)
    * [Case study: Web Browser](case_study_web_browser.md)
