@@ -14,12 +14,16 @@
 > Normally these are the same, but if a program with a set-uid bit set is run, then while the real UID remains that of the user who ran it, the effective UID is that of the user who owns the file.
 
 ## Berkely history of web
-- Most Unix system reserve < 1024 for root
+- Most Unix system reserve < 1024 `must have ROOT access` to connect to those ports
 - Web servers listen on port 80, so something `HAS TO` be root in order for web server to start running.
-- `Shedding priviege`: Apache starts as root, then forks and sheds privileges.
+- `Shedding priviege`: Apache starts web server as root, then forks and sheds privileges (lower privileges).
 - Apache serving web pages as non-priviledged user "www"
+- User files are `NOT` owned by `www`.
 
 ## Challenges of designing web server
+> Web server is an OS
+
+- Design for large-scale system
 - Web server should be up most time
 - Error-resiliency is fundamental for designing web server
 - Be smart about `restart` and `retry` is crucial for highly reliable systems.
@@ -32,13 +36,13 @@
 - Dijstra's Turing award:
     >underestimate a programmer's ability to get stuff right.
 
-## htaccess
+## .htaccess
 From Wikipedia:
 > A .htaccess (hypertext access) file is `a directory-level configuration file` supported by several web servers, that allows for decentralized management of web server configuration. They are placed inside the web tree, and are able to override a subset of the server's global configuration for the directory that they are in, and all sub-directories.[1]
 
 > The original purpose of .htaccess—reflected in its name—was to allow per-directory access control, by for example requiring a password to access the content. Nowadays however, the .htaccess files can override many other configuration settings including content type and character set, CGI handlers, etc.
 
-### Security problems by people
+### Human Problems
 - Say sys admin doesn't figure the permissions for files the way user wanted, user configures .htaccess that overrides system access control settings.
 - Apache solution: have a configuration that determines who wins the access control (htaccss or system permission)
 - System admin can get the permissions wrong!
