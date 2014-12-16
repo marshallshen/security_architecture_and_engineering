@@ -1,3 +1,4 @@
-# Canaries
+## Canaries
+> Buffer overflow protection
 
 ![canaries]()
