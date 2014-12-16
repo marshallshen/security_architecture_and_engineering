@@ -7,7 +7,6 @@
 - Scripts can interfere with each other:
     > All the CGI scripts will run as the same user, so they have potential to conflict with other scripts.
 
-
 ### TLS encryption
 1. Used by most e-commerce
 2. TLS applies public-key encryption
