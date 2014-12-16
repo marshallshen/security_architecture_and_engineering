@@ -4,7 +4,7 @@
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
        * [Canaries](canaries.md)
-   * Address Randomization
+   * [Address Randomization](address_randomization.md)
 * [(Web Service) Architecture](web_service_architecture.md)
 * [Confinements](confinements.md)
 * [Program Structure](program_structure.md)
