@@ -8,7 +8,8 @@
     * Opening attachments
     * Click URLs $$\iff$$ browser sandbox
 
-> `Question` Suppose the mailer can encrypt, decrypt, and
+> `Question` 
+Suppose the mailer can encrypt, decrypt, and
 digitally sign email. What privilege level should be used for those operations.
 
 > `Answer` 
