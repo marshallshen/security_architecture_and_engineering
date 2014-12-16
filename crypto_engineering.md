@@ -31,5 +31,6 @@
 * `VERY IMPORTANT`, given that "delete" operations do not really delete data.
 
 ### Store Encryption Key
-
+* User store a key on disk, encrypted.
+    - Decrypt it with passphrase
 
