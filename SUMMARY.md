@@ -5,6 +5,7 @@
    * [Buffer overflow](buffer_overflow.md)
        * [Buffer Overflow Protections](buffer_overflow_protections.md)
        * [Exploit Buffer Overflow](exploit_buffer_overflow.md)
+   * Secure C practice
 * [(Web Service) Architecture](web_service_architecture.md)
 * [Confinements](confinements.md)
 * [Program Structure](program_structure.md)
