@@ -10,6 +10,7 @@
    * [Secure C practice](secure_c_practice.md)
    * [secure-sensitive program](secure-sensitive_program.md)
 * [(Web Service) Architecture](web_service_architecture.md)
+   * contents_and_scripts
 * [Confinements](confinements.md)
 * [Program Structure](program_structure.md)
    * [Case study: 4.3BSD FTP Daemon](case_study_43bsd_ftp_daemon.md)
