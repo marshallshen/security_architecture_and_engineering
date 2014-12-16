@@ -13,3 +13,22 @@
 ### Store Encryption Key
 * User store a key on disk, encrypted.
     - Decrypt it with passphrase.
+
+### Crypto example
+```
+$ cattach /usr/mab/secrets matt
+Key:
+$ ls -ld /crypt/matt
+drwx------ 2 mab 512 Apr 1 15:56 matt
+$ echo "murder" > /crypt/matt/crimes
+$ ls -l /crypt/matt
+total 1
+-rw-rw-r-- 1 mab 7 Apr 1 15:57 crimes
+$ cat /crypt/matt/crimes
+murder
+$ ls -l /usr/mab/secrets
+total 1
+-rw-rw-r-- 1 mab 15 Apr 1 15:57 8b06e85b87091124
+$ cat -v /usr/mab/secrets/8b06e85b87091124
+M-Z,k\x{02C6}]\x{02C6}B\x{02C6}VM-VM-6A\x{02DC}uM-LM-_M-DM-\x
+```
