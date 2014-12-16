@@ -23,4 +23,11 @@
 
 * Second form alerts the programmer to the real requirement
 * Second form alerts the tester to the requirement
+
+### Input validation
+> A program whose behavior has not been specified cannot be buggy, only surprising.
+
+* Trust nothing supplied by the use
+* Define inputs before they can be checked
+
 * Testing is done against requirements!
