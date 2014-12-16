@@ -25,6 +25,8 @@
 > Pseudo random number generator, read [more](http://en.wikipedia.org/wiki/Dual_EC_DRBG).
 
 * Security company RSA made it the default in their product, allegedly after being paid off. 
+* The algorithm includes a "`random`" constant
+* If it’s not random—if it’s the public key in an elliptic curve cryptosystem, then you obtain the private key.
 
 ### Crypto example
 ```
