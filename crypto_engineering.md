@@ -32,5 +32,6 @@
 
 ### Store Encryption Key
 * User store a key on disk, encrypted.
-    - Decrypt it with passphrase
+    - Decrypt it with passphrase.
+
 
