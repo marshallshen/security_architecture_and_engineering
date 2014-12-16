@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Security and Usability
 * [Physical Security](physical_security.md)
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
