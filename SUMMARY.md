@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Crypto Engineering](crypto_engineering.md)
+   * Encryption
 * [Security and Usability](security_and_usability.md)
    * [User Interface (UI)](user_interface_ui.md)
    * [Passwords](passwords.md)
