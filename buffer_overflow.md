@@ -22,10 +22,10 @@ void g() {
 * Java, C#, Go check array bounds
 * More or less everything but C and C++ check
 
-![buffer_overflow_1]()
+![buffer_overflow_1](images/buffer_overflow_1.png)
 
-![buffer_overflow_2]()
+![buffer_overflow_2](images/buffer_overflow_2.png)
 
-![buffer_overflow_3]()
+![buffer_overflow_3](images/buffer_overflow_3.png)
 
-![buffer_overflow_4]()
+![buffer_overflow_4](images/buffer_overflow_4.png)
