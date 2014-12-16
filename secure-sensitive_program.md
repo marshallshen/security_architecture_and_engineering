@@ -13,7 +13,7 @@
 * The shell variable IFS lists the delimiters used when parsing command lines.
 * If you can change it, you can control the shell’s parsing.
 
-### Some sensitive environment variables
+### Environment variables
 * `PATH`
     - If “.” is first,, you’ll execute a command in the current directory. What if it’s booby-trapped?
 * `ENV`: a file to execute on startup
