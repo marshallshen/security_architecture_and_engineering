@@ -11,3 +11,8 @@
 * Radioactive decay
 * Thermal noise
 * Oscillator
+* Mouse movement
+* Keystroke timing
+
+### Software: pseudo random generator
+> In practice, we use a combination of software and hardware random number generator.
