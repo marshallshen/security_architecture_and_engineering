@@ -16,6 +16,11 @@
     - Decrypt it with passphrase.
 * `Protecting cryptographic key` is the most important part in crypt.
 
+### Software random number generator
+* Many operating systems can provide cryptographic-grade random numbers
+* /dev/random: True random numbers, from hardware sources
+* /dev/urandom: Software random number generator, seeded from hardware
+
 ### Crypto example
 ```
 $ cattach /usr/mab/secrets matt
