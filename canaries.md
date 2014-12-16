@@ -1,4 +1,4 @@
 ## Canaries
 > Buffer overflow protection
 
-![canaries]()
+![canaries](images/canaries.png)
