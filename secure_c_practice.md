@@ -11,7 +11,8 @@
 ### Format strings
 * `printf(str)` is bad $$\rightarrow$$ metacharacters can confuse log files.
 * `printf("%s", str)` is good
-* 
+* `%n` is the worst
+    - `printf("Hello\n%n", &cnt)` can be used to overwrite memory location!
 
 ### System requirement
 > Make error-case specific!
