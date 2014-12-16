@@ -8,3 +8,13 @@
 ![SQL injection](images/sql_injection.png)
 
 ### Internal Field Separator (IFS)
+> For many command line interpreters (“shell”) of Unix operating systems, the internal field separator (abbreviated IFS) refers to a variable which defines the character or characters used to separate a pattern into tokens for some operations.
+
+* The shell variable IFS lists the delimiters used when parsing command lines.
+* If you can change it, you can control the shell’s parsing.
+
+### Some sensitive environment variables
+* PATH
+* ENV
+* LD_LIBRARY_PATH 
+* LD_PRELOAD
