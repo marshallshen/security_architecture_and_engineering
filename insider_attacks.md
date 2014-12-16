@@ -5,4 +5,4 @@
 > Edward Snowden, Bradley Manning
 
 From Wall Street Journal:
-![insider_attack]()
+![insider_attack](images/insider_attack.png)
