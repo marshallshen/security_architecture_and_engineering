@@ -14,6 +14,7 @@
    * [Case study: 4.3BSD FTP Daemon](case_study_43bsd_ftp_daemon.md)
        * [Attack FTP](attack_ftp.md)
        * [Fix FTP](fix_ftp.md)
+       * Security and Usability
        * [Root privilege](root_privilege.md)
    * [Case study: mailer](case_study_mailer.md)
    * [Case study: Web Browser](case_study_web_browser.md)
@@ -24,7 +25,6 @@
    * [Software Engineering Code of Ethics](software_engineering_code_of_ethics.md)
    * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
    * [Tools part 2: fuzzing and more](tools_part_2_fuzzing_and_more.md)
-   * Security and Usability
    * [Reconnaissance](reconnaissance.md)
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
