@@ -7,3 +7,19 @@
 
 * Challenge: `array vs. pointer` semantics makes it harder in C.
 * A bounds-checking C compiler has been written, but it’s largely unused.
+
+### Format strings
+* `printf(str)` is bad $$\rightarrow$$ metacharacters can confuse log files.
+* `printf("%s", str)` is good
+* 
+
+### System requirement
+> Make error-case specific!
+
+> “File names may be up to 1024 bytes long” `vs`
+
+> “File names may be up to 1024 bytes long; longer file names must be rejected”
+
+* Second form alerts the programmer to the real requirement
+* Second form alerts the tester to the requirement
+* Testing is done against requirements!
