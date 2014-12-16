@@ -23,6 +23,16 @@
 ### File Descriptors
 * 0 stdin, 1 stdout, 2 stderr
 * `open()` system call allocates the `first available file descriptor`, starting from 0.
-    > Suppose you close fd 1, then invoke a setUID program that will open
-some sensitive file for output
+    > Suppose you close fd 1, then invoke a setUID program that will open some sensitive file for output.
+
+    > Anything it prints to `stdout` will overwrite that file.
+    
+    > Similar tricks for `fd0`.
+
+### Filename Parsing
+TODO: wildcards, so?
+
+### The ".." problem
+* `http://example.com/../../../etc/passwd`
+* The ".." can occur later: `http://example.com/a/b/../../etc/passwd`
 
