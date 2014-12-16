@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Physical Security
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
        * [Buffer Overflow Protections](buffer_overflow_protections.md)
@@ -43,5 +44,4 @@
    * [Router Link Weakness](router_link_weakness.md)
    * [Remote Access](remote_access.md)
    * [General Principle](general_principle.md)
-* Physical Security
 
