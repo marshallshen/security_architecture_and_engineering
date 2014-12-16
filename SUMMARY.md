@@ -24,6 +24,7 @@
    * [Software Engineering Code of Ethics](software_engineering_code_of_ethics.md)
    * [Tools part 1: OS system calls](tools_part_1_os_system_calls.md)
    * [Tools part 2: fuzzing and more](tools_part_2_fuzzing_and_more.md)
+   * Security and Usability
    * [Reconnaissance](reconnaissance.md)
 * [The Internet of Things](the_internet_of_things.md)
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
@@ -44,5 +45,4 @@
    * [Router Link Weakness](router_link_weakness.md)
    * [Remote Access](remote_access.md)
    * [General Principle](general_principle.md)
-* Security and Usability
 
