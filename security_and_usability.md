@@ -16,5 +16,4 @@
 ### Warning Fatigue
 > Dialog box
 
-> A window in which resides a button labeled ”OK” and a variety of
-text and other content that users ignore.
+> A window in which resides a button labeled ”OK” and a variety of text and other content that users ignore.
