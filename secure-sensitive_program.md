@@ -19,3 +19,10 @@
 * `ENV`: a file to execute on startup
 * `LD_LIBRARY_PATH`: The search path for shared libraries
 * `LD_PRELOAD`: Extra modules loaded at runtime
+
+### File Descriptors
+* 0 stdin, 1 stdout, 2 stderr
+* `open()` system call allocates the `first available file descriptor`, starting from 0.
+    > Suppose you close fd 1, then invoke a setUID program that will open
+some sensitive file for output
+
