@@ -18,8 +18,8 @@
 
 ### Software random number generator
 * Many operating systems can provide cryptographic-grade random numbers
-* /dev/random: True random numbers, from hardware sources
-* /dev/urandom: Software random number generator, seeded from hardware
+* `/dev/random`: True random numbers, from hardware sources
+* `/dev/urandom`: Software random number generator, seeded from hardware
 
 #### DUAL EC DBRG: The NSA Back Door
 > Pseudo random number generator, read [more](http://en.wikipedia.org/wiki/Dual_EC_DRBG).
