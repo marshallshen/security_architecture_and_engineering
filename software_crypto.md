@@ -21,6 +21,10 @@
 * /dev/random: True random numbers, from hardware sources
 * /dev/urandom: Software random number generator, seeded from hardware
 
+#### DUAL EC DBRG: The NSA Back Door
+> 
+* Security company RSA made it the default in their product, allegedly after being paid off. 
+
 ### Crypto example
 ```
 $ cattach /usr/mab/secrets matt
