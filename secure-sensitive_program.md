@@ -30,7 +30,11 @@
     > Similar tricks for `fd0`.
 
 ### Filename Parsing $$\rightarrow$$ difficult to get all of them right.
-TODO: wildcards, so?
+* Wildcard matching is enabled..
+* To open a private file:
+    - `Method 1`: client opens the file and passes the open file descriptor
+    - `Method 2`: client sends access right the sever
+    > A file descriptor is a form of capability, but can't be used over a network.
 
 ### The ".." problem
 * `http://example.com/../../../etc/passwd`
