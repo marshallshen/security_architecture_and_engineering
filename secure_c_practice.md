@@ -30,7 +30,7 @@
 
 * Trust nothing supplied by the use
 * Define inputs before they can be checked
-
+    - "Is a newline a valid character in a username?"
 
 
 
