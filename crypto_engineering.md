@@ -11,7 +11,7 @@
 ![theft](images/theft.png)
 
 * File system or disk encryption `is useful` if the threat is compromise from outside the boundaries of the machine: physical theft, remote file system, backup media, etc.
-* It is not useful for intra-machine threats; an enemy who can bypass access controls can steal the key or the plaintext.
+* It is not useful for `intra-machine threats` - an enemy who can bypass access controls can steal the key or the plaintext.
 
 ### What can encryption `not` do? 
 > File type is not well-protected
