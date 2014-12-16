@@ -6,6 +6,9 @@ char line[512];
 ...
 gets(line);
 ```
+### Java vs. C.
+* Java, C#, Go check array bounds
+* More or less everything but C and C++ check
 
 ![buffer_overflow_1]()
 ![buffer_overflow_2]()
