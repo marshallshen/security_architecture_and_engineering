@@ -11,7 +11,7 @@
 ### Prompt
 > How likely are users to read the message?
 
-![windows_vista](images/widows_vista.png)
+![windows_vista](images/windows_vista.png)
 
 ### Warning Fatigue
 > `Dialog box`
