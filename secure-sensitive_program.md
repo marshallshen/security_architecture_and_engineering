@@ -29,10 +29,14 @@
     
     > Similar tricks for `fd0`.
 
-### Filename Parsing
+### Filename Parsing $$\rightarrow$$ difficult to get all of them right.
 TODO: wildcards, so?
 
 ### The ".." problem
 * `http://example.com/../../../etc/passwd`
 * The ".." can occur later: `http://example.com/a/b/../../etc/passwd`
+
+### Unicode
+* Standard for representing (virtually) all of the world’s scripts.
+* Problem: Some symbols look the same, but have different values: ordinary /—technically called “solidus”—is U+002F, but U+2044, “fraction slash”, looks the same.
 
