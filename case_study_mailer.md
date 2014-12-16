@@ -11,6 +11,10 @@
 > `Question` Suppose the mailer can encrypt, decrypt, and
 digitally sign email. What privilege level should be used for those operations.
 
+> `Answer` Root should not be used in any of these circumstances. Encryption and encryption can be done by a normal user (you could write an AES algo on the clic machine for example). Having separate UIDs for the tasks might be useful depending on the circumstance.
+
+> Most of time you absolutely need root is because of some outdated design decision on Unix (e.g. bind to port 80).
+
 ### Encryption and Decryption
 * Encrypt private key with user-typed passphrase
     > Sometimes we can crypto with hardware assistance
