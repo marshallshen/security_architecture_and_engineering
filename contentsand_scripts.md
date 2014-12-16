@@ -1,4 +1,4 @@
-# contents_and_scripts
+# Contents and Scripts
 
 ### Web server security features
 - Root (www) should not own contents of users
