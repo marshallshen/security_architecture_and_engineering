@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Physical Security
+* [Physical Security](physical_security.md)
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
        * [Buffer Overflow Protections](buffer_overflow_protections.md)
