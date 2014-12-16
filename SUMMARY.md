@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [software crypto](software_crypto.md)
-   * hardware crypto
+   * [hardware crypto](hardware_crypto.md)
 * [Security and Usability](security_and_usability.md)
    * [User Interface (UI)](user_interface_ui.md)
    * [Passwords](passwords.md)
