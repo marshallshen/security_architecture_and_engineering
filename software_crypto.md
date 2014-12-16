@@ -11,8 +11,10 @@
 * `VERY IMPORTANT`, given that "delete" operations do not really delete data.
 
 ### Store Encryption Key
+* Tradeoff: availability vs. confidentiality and integrity
 * User store a key on disk, encrypted.
     - Decrypt it with passphrase.
+* `Protecting cryptographic key` is the most important part in crypt.
 
 ### Crypto example
 ```
