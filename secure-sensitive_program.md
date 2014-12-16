@@ -15,6 +15,7 @@
 
 ### Some sensitive environment variables
 * PATH
-* ENV
+    - If “.” is first,, you’ll execute a command in the current directory. What if it’s booby-trapped?
+* ENV: a file to execute on startup
 * LD_LIBRARY_PATH 
 * LD_PRELOAD
