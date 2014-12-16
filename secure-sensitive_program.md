@@ -40,3 +40,20 @@ TODO: wildcards, so?
 * Standard for representing (virtually) all of the world’s scripts.
 * Problem: Some symbols look the same, but have different values: ordinary /—technically called “solidus”—is U+002F, but U+2044, “fraction slash”, looks the same.
 
+### Temporary File
+* Temp files are subject to race-condition vulnerability
+* `mktemp()` is vulnerable to race-condition
+* Alternatives: `mkstemp()` or `mktemp()` with the `O CREAT | O EXCL` flags to open()
+
+### Shedding SetUID
+* `BAD`: A setUID program can give up and then regain its setUID status:
+    ```
+    save_uid = geteuid();
+    seteuid(getuid());
+    fd = open(file, O_RDONLY);
+    seteuid(save_uid);
+    ```
+* `GOOD`: run unprivileged most of the time, but assume
+setUID status only when doing privileged operations
+
+
