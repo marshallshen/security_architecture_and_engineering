@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Security and Usability](security_and_usability.md)
-   * User Interface (UI)
+   * [User Interface (UI)](user_interface_ui.md)
 * [Physical Security](physical_security.md)
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
