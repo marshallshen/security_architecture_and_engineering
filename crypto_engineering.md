@@ -30,3 +30,6 @@
 ### Disk Encryption
 * `VERY IMPORTANT`, given that "delete" operations do not really delete data.
 
+### Store Encryption Key
+
+
