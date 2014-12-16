@@ -4,6 +4,7 @@
 * [Security and Usability](security_and_usability.md)
    * [User Interface (UI)](user_interface_ui.md)
    * [Passwords](passwords.md)
+   * Cognitive Experiment
 * [Physical Security](physical_security.md)
 * [Secure Programming](secure_programming.md)
    * [Buffer overflow](buffer_overflow.md)
