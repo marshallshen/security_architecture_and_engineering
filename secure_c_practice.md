@@ -32,7 +32,10 @@
 * Define inputs before they can be checked
     - "Is a newline a valid character in a username?"
 
-
+#### User input in shell
+* Watch for `popen()` and `system()`
+* Careful about most special characters ‘˜$ˆ&()={}[]|;:’"?<>\
+* `Whitelist good characters` rather than `blacklist bad characters`.
 
 
 
