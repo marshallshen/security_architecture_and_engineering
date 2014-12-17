@@ -10,7 +10,7 @@ E.g. 2014 Sony Pictures were hacked by North Korea as the government isn't pleas
 TODO: Find news link
 
 ## How is a machine compromised?
-* 0-day attacks? Attacks that are never seen before.
+* 0-day attacks? Attacks that are never seen before. $$\rightarrow$$ not most usual.
 * Carelessness? (biggest case) Hackers with specialized knowledge creates phishing emails to obtain information.
 > Spear phishing (TODO): hacker fakes information based on your background, making the fake information sound more convincing.
 * Insider attacks? It's very hard to prevent (Snowden case). Combine insider attack with phishing emails, someone inside sends tailored fake information to obtain access from you, is even worse.
