@@ -18,8 +18,7 @@ replay previous values.
 
 > Note: I confess that when I wrote “time of day”, I was thinking of the Unix gettimeofday() system call, which returns the amount of time, in microseconds, since the “epoch”—00:00:00 Jan 1, 1970, UTC. This means that someone doing something at the same time each day isn’t really a threat. However, that didn’t really affect anything in the grading.
 
-3. (20 points) Consider the design of a distributed computer system where the components are connected by an ordinary network and the user workstations have no privileged operations. Effectively, each user is root or Administrator on his or her machine. Instead, there are a few privileged computers that implement the file system, etc. Give at least two of the security challenges of this design? How would
-you solve these problems?
+3. (20 points) Consider the design of a distributed computer system where the components are connected by an ordinary network and the user workstations have no privileged operations. Effectively, each user is root or Administrator on his or her machine. Instead, there are a few privileged computers that implement the file system, etc. Give at least two of the security challenges of this design? How would you solve these problems?
 
 4. You’re designing the authentication system for a multi-level secure system. The system will hold data at all levels from `Unclassified` to `Top Secret`. (For convenience, I’ve included the lattice diagram
 from class.)
