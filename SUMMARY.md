@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Malware
+* [Malware](malware.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [software crypto](software_crypto.md)
    * [hardware crypto](hardware_crypto.md)
