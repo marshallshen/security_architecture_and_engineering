@@ -63,4 +63,5 @@
    * [General Principle](general_principle.md)
 * Exams
    * [Fall 2014 Midterm](fall_2014_midterm.md)
+* Fall 2013 Midterm
 
