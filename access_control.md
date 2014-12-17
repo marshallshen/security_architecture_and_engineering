@@ -20,3 +20,15 @@ $ ls -l not me
 $ cat not me
 cat: not me: Permission denied
 ```
+
+## Directory Permissions
+```
+$ ls -ld oddball
+dr--r--r-- 2 smb wheel 512 Sep 12 01:36 oddball
+$ ls oddball
+cannot get at
+$ ls -l oddball
+ls: cannot_get_at: Permission denied
+$ cat oddball/cannot get at
+cat: oddball/cannot get at: Permission denied
+```
