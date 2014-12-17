@@ -3,6 +3,7 @@
 > Why Confinements (Separated Components)
 * Isolation components to ensure security. 
 * If the machine is compromised, the privileged will be set up `against` you.
+* Limit each application to `a small subset` of the system's resources.
 
 ## Network identity
 - A machine has an IP address.
