@@ -32,6 +32,9 @@
 - True security in such cases is almost impossible
 - More than in most situations, this shows the role of economics: the attack has to be cost-effective
 - This is usually the best approach: make the security good enough
+ 
+
+
 
 
 
