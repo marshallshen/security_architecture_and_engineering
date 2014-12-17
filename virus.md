@@ -10,4 +10,4 @@
 ### Infected Flash Drive
 * `autorun.inf` in flash drive is honored by many OS systems.
 
-### autorun
+### Macro Virus
