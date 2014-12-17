@@ -28,7 +28,7 @@ input, to avoid standard network attacks.
 
 > There are also network-based threats, such as assorted ways to divert traffic or be a “man in the middle”. These are defeated by bilateral authentication: the user has to authenticate the server, and vice-versa, before any sensitive information is sent. Standard cryptographic techniques can be used.
 
-## 5
+## 4
 You’re designing the authentication system for a multi-level secure system. The system will hold data at all levels from `Unclassified` to `Top Secret`. (For convenience, I’ve included the lattice diagram
 from class.)
 
