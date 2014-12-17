@@ -16,6 +16,10 @@ expensive
 * Doesn’t make the attack on a single password harder; makes attacks
 trying to find some password 4096× harder
 
+### Shadowed Password File
+
+> In the Linux operating system, a shadow password file is a system file in which encryption user password are stored so that they aren't available to people who try to break into the system.
+
 ### Two Factor authentication
 
 > Two-factor authentication provides unambiguous identification of users by means of the combination of two different components. These components may be something that the user knows, something that the user possesses or something that is inseparable from the user.
