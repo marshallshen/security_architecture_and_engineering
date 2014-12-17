@@ -29,7 +29,7 @@
 * [Confinements](confinements.md)
    * [chroot](chroot.md)
    * [Network Identity](network_identity.md)
-   * Virtual Machine
+   * [Virtual Machine](virtual_machine.md)
 * [Program Structure](program_structure.md)
    * [Case study: 4.3BSD FTP Daemon](case_study_43bsd_ftp_daemon.md)
        * [Attack FTP](attack_ftp.md)
