@@ -15,3 +15,6 @@
 expensive
 * Doesn’t make the attack on a single password harder; makes attacks
 trying to find some password 4096× harder
+
+### Two Factor authentication
+> Two-factor authentication provides unambiguous identification of users by means of the combination of two different components. These components may be something that the user knows, something that the user possesses or something that is inseparable from the user.
