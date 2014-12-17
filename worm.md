@@ -11,5 +11,8 @@
 Watch the [Stuxnet TED talk](http://www.ted.com/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon?language=en)
 
 * One of the most sophisticated known cyber attackers
+* Generall attributed to the US and Israel
+* Used four different "0-day" attacks - created by a sophisticated party
+* Spread via USB sticks and on-LAN attacks
 * Virus can be spread in form of worms
 * Major targets are developed countries
