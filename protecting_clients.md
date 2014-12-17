@@ -21,3 +21,4 @@
 ## Metro card
 * MTA Metrocard: central database controlled
 * Washington D.C farecard: the card itself knows its value. No protection against theft or counterfeiting.
+
