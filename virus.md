@@ -22,3 +22,7 @@ spreadsheets) can thus spread viruses, `using Microsoft Macro language`.
 ### Virus-Spreading Patterns
 * Boot-sector viruses spread in affinity groups -- floppies were a normal means of communication before networks.
 * Program viruses spread by people sharing software, `often improper or illegal`.
+
+### First Virus
+* A boot-sector virus written by a 15-year-old.
+
