@@ -8,4 +8,5 @@
 
 ### Boot sector virus
 ### Infected Flash Drive
-* `autorun.inf`
+* `autorun.inf` in flash drive is honored by many OS systems.
+
