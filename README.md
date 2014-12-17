@@ -5,3 +5,9 @@ Security Architecture and Engineering
 Read
 [it](http://marshallshen.gitbooks.io/security-architecture-and-engineering/) on Gitbook.
 
+## What are we going to talk about?
+
+### Security Primitives
+* What are the basic mechanisms you can use to secure a system?
+* What are the properties of these mechanisms?
+* What is the assurance associated with them?
