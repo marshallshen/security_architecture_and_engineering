@@ -25,4 +25,15 @@ operations and memory protection
 * Performance can be dramatically enhanced if the guest OS signals the VMM
 * Example: add a virtual “graphics” driver that calls the VMM, via the equivalent of a system call
 
+## Limitations of Virtual Machines
+* Would you let your enemy put a machine inside your data center?
+* VMs can spread viruses, launch DoS attacks, etc.
+* VMs require just as much care, administration, and monitoring as do real machines
+* In many situations, they represent an economic mechanism rather than a security mechanism (Save on power, cooling, etc.)
+* But — may be less painful when wiping the disk and starting over
+
+
+
+
+
 
