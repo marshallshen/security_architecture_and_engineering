@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * Access Control
+* Authentication
 * [Biometrics](biometrics.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
@@ -74,5 +75,4 @@
    * [Fall 2013 Midterm](fall_2013_midterm.md)
    * [Fall 2010 Midterm](fall_2010_midterm.md)
    * [Fall 2008 Midterm](fall_2008_midterm.md)
-* Authentication
 
