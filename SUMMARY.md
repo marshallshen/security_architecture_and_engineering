@@ -72,5 +72,5 @@
    * [Fall 2010 Midterm](fall_2010_midterm.md)
    * [Fall 2008 Midterm](fall_2008_midterm.md)
 * [Protecting Clients](protecting_clients.md)
-* Biometrics
+* [Biometrics](biometrics.md)
 
