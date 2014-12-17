@@ -58,7 +58,17 @@ There’s a very small village on the border to another country. Rather than sta
 > If the digitized fingerprints are digitally signed, this is a pretty good scheme; if they’re not, it’s easy to replace the contents of the mag stripe.
 
 ## 5
-Random numbers are very important in cryptography. Reportedly, the National Security Agency likes to use cryptographic algorithms, rather than strange hardware, to generate these
+Random numbers are very important in cryptography. Reportedly, the National Security Agency likes to use cryptographic algorithms, rather than strange hardware, to generate these.
+
+(a) (5 points) What is the advantage of this policy?
+
+> It’s high assurance — algorithms don’t suffer from the hard-to-trace failure modes of random number hardware.
+
+(b) (10 points) What else do they need to do to avoid serious risks?
+
+> They need to pick a true-random seed, and they need to make sure that no insiders and steal this seed.
+
+
 
 
 
