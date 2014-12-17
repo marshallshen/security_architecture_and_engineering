@@ -5,7 +5,7 @@
    * [Virus](virus.md)
    * [Worm](worm.md)
    * [Trojan Horse](trojan_horse.md)
-   * Writing Virus
+   * [Writing Virus](writing_virus.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
    * [Hardware Crypto](hardware_crypto.md)
