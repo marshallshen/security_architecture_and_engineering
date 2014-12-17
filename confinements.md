@@ -5,12 +5,6 @@
 * If the machine is compromised, the privileged will be set up `against` you.
 * Limit each application to `a small subset` of the system's resources.
 
-
-
-## chroot
-- Set up a subdirectory to be the file system of the entire file tree.
-- Prevent `cd ../` attack.
-
 ## JVM
 - C code: compile to assembly to run on CPU.
 - JVM: compile to Java byte code; JVM translates byte code to instructions on CPU.
