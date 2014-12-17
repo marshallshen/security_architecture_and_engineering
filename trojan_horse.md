@@ -4,6 +4,6 @@
 * Backdoors
 * Keystroke loggers - steal passwords
 * Web clickers - run up advertising costs
-* Proxies - allow others to use your machine to launder connections.
+* Proxies - allow others to use your machine to launder connections
 * Spam engines
 * DDos engines
