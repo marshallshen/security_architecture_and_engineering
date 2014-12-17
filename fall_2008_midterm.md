@@ -18,5 +18,38 @@ There are several things wrong with this idea. Name at least two.
 > If the badge is lost, so is the data. If the employee dies, the data is lost. It’s hard toget a key from a fingerprint or other biometric. Badges tend to travel with people; there’s no security
 redundancy against, say, an armed enemy — remember that we’re talking about intelligence agencies.
 
+## 3
+(10 points) A user has a file containing the private key to a certificate. This file is stored encrypted with an 8-character password. What should the permissions on this file be? Why?
+
+> 600 or 400 — it should not be readable by others. It may be useful to write-protect the file, since there are few reasons to overwrite it, but that’s a matter of taste.
+
+## 4
+(20 points) Your task is to design an authentication and access control regimen for a large, distributed consulting company. Each site has its own, independently run computers. The consultants who do the work travel frequently from office to office; the support staff never knows who will show up the next day to work on some project.
+
+a. (10 points) What sort of authentication system would you use for logins for these consultants? Explain.
+
+> To get full credit for this question, your answer had to say something showing that you realized it was a very distributed environment.
+
+> I prefer certificate-based authentication, since it doesn’t rely on a centralized authentication
+database. All that’s needed is a certificate signed by another site.
+
+b. (10 points) What form of access control should the administrative support staff use for access to the consultants’ email, expense reports, etc.? Explain.
+
+> There was an experience disconnect here. People at the level of these consultants are probably not doing their own expense reports; rather, the administrative support staff would do it. Many people assumed — incorrectly — that they should have no such
+access. I gave full credit for people who made that mistake, even though I think that the wording of the question implies that they do have access. 
+
+> Role-based access control is best, since who has the role of a particular person’s assistant will change from day to day.
+
+## 5
+(15 points) Web browser bugs, including buffer overflows, have been a persistent source of security problems. A security researcher makes the following proposal: make all web browsers on a system run setUID to, say, user firefox. That way, if there are any security problems, only files belonging to the firefox user are at risk. Is the researcher right or wrong? Justify your answer.
+
+> Wrong answer. First — if there’s a penetration (perhaps a buffer overflow), the injected code can revert to the real UID, so there’s no protection. Second, the web files of all other browser users on the system are at risk if a single user’s browser is penetrated.
+
+## 6
+(15 points) Suppose a system administrator could insert filters — whatever programs he or she wished
+— in front of any or all vulnerable listeners in a message-passing system.
+
+
+
 
 
