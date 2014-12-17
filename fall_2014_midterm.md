@@ -34,5 +34,10 @@ from class.)
     
     (b) (10 points) A third group suggests that passwords alone are a bad idea and that they should be supplemented with a time-based token such as a SecureID card. These cards require a database of keys, one per card. Again, give one advantage of each of the choices above.
 
+    > The answers are basically the same. However, “no read up” is more important here than for passwords, because what would be exposed is the actual keys, rather than just hashed passwords.
+The replay prevention aspect of the SecurID tokens is not relevant to the question.
+
 ![auth_system](images/auth_system.png)
+
+
 
