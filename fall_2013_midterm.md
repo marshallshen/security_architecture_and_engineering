@@ -27,3 +27,9 @@ Explain.
 plus of course the site’s usual system administrators. Describe the access control and permission architecture
 you would use.
     
+> If you use message-passing, the game should run as its own service with its own user id, to prevent hacks from affecting anyone else. If you use setuid, it should have its userid and groupid; per below, the game is probably best run setgid, not setuid.
+
+> All score files should be writable only by this group. Depending on the game needs, score files may be restricted to being readable only by that group. The game administrator needs to have the ability to overwrite the game program, and probably to modify the score files and other administrative files. This suggests that the administrator should be in the game’s group and in the group that owns the programs; those in turn should be group-writable.
+
+> If there are some resources accessible only by players, either all players can be in a some group, or there should be some game program—setgid to the game’s group—that reads those resources. There are three ways to handle updates to the game. First, the game can auto-install those. Second,
+the game administrator can download them and manually install them. Third, the game company can do it directly. In the first two cases, the updates should be digitally signed. In the third situation, the game company should be in the appropriate group to overwrite those files.
