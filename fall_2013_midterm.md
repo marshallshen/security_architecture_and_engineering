@@ -10,9 +10,16 @@ limitations.)
     (b) (10 points) Design a better scheme that in principle can work. (Again, ignore the question of what
 browsers can or cannot do.)
 
-2. (20 points) The MTA wants to replace the Metrocard used to pay subway and bus fares in New York. Suppose that someone suggested using iris scans: when you board a bus or enter a turnstile, something scans your eye and deducts the appropriate fare from your account. Is this a good architecture or not?
-Explain.
+2. (20 points) The MTA wants to replace the Metrocard used to pay subway and bus fares in New York. Suppose that someone suggested using iris scans: when you board a bus or enter a turnstile, something scans your eye and deducts the appropriate fare from your account. Is this a good architecture or not? Explain.
 
+> No, it isn’t.
+- It would probably be too slow
+- It would be privacy-invasive
+- It can only operate online
+- It requires someone to set up an account at a location with an iris scanner; this is inconvenient for casual riders, such as tourists.
+- It makes it hard for one person to have multiple accounts, e.g., one for personal travel, one for work, etc.
+
+> You would certainly need a system to preload user accounts wit
 
 
 3. Suppose I want to build an online exam server: students take the exam via their own web browsers on their own computers. Also assume that for some reason I’m not worried about students collaborating via their computers; consider only the questions I’m explicitly asking.
