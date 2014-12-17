@@ -1,6 +1,13 @@
 # Access Control
 
-## Permissin Checking Alorightm
+### Access Control List
+* 9-bit model not always flexible enough
+* Many systems (Multics, Windows XP and later, Solaris,
+some Linux) have more general Access Control Lists
+* ACLs are explicit lists of permissions for different parties
+* Wildcards are often used
+
+### Permissin Checking Alorightm
 ```
 if curr_user.uid == file.uid
     check_owner_permissions();
@@ -11,7 +18,7 @@ else
 fi
 ```
 
-## Owner Permissions
+### Owner Permissions
 ```
 $ id
 uid=54047(smb) gid=54047(smb) groups=0(wheel),3(sys),54047(smb)
@@ -21,7 +28,7 @@ $ cat not me
 cat: not me: Permission denied
 ```
 
-## Directory Permissions
+### Directory Permissions
 ```
 $ ls -ld oddball
 dr--r--r-- 2 smb wheel 512 Sep 12 01:36 oddball
