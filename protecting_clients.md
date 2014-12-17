@@ -18,4 +18,4 @@
     * Use program to obtain authentication
 * Physical
     * Manipulate physical environments: temperature, radio-active waves, etc.
-* There are companies that professionally crack computer chips for buinsess.
+* There are companies that professionally crack computer chips for buinsess (chipworks.com).
