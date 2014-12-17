@@ -9,3 +9,23 @@
 
 ## 2
 You’re working in software development environment for a medium-sized company. There is a development copy of the code; there is also a separate copy for each release in the field, plus a patched version of each release that incorporates bug fixes.
+
+Developers can make changes to the development copy. The manager of the development group is the only person allowed to create new releases and at some point copy the development version to a new release directory. Testers look only at release directory trees. Maintenance programmers develop patches for each release.
+   
+(a) (5 points) What form of access control mechanisms would you use for this setup? (Don’t bother
+talking about version control systems; that’s not what any part of this question is about.)
+
+> Access control lists, with groups used for each role. Simple user/group/other doesn’t work because some files need different group permissios for different roles.
+
+(b) (10 points) I’ve identified four roles: developers, manager, testers, and maintainers. I’ve also identified three sets of files: development versions, release versions, and patched versions. Draw the access control matrix and show who has which permissions.
+
+```
+devel release patch
+Developers rw - -
+Manager r rw -
+Testers - r -
+Maintainers - r rw
+Other permissions, such as ’x’, aren’t really relevant here|
+```
+
+
