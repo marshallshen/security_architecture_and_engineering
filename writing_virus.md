@@ -6,3 +6,7 @@
     * Eg. Infect word, look for `.doc` files
 * Replicator: copy virus text to new place
 * Payload (optional)
+    - Corrupt files
+    - Delete files
+    - Encrypt files
+    - Steal information...
