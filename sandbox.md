@@ -5,6 +5,7 @@
 * Fairly simple set of permissions to allow access to certain files
 * App cannot request other files outside of its sandbox directory
 * Programs sold via Apple’s App Store must use sandboxing
+
 ![mac_sandbox](images/mac_sandbox.png)
 
 ### HTML5 Sandboxing
