@@ -6,7 +6,7 @@
    * [Worm](worm.md)
    * [Trojan Horse](trojan_horse.md)
    * [Writing Virus](writing_virus.md)
-   * Rootkits
+   * [Rootkits](rootkits.md)
    * [Anti-virus software](anti-virus_software.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
