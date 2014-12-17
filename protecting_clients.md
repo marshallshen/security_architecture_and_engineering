@@ -27,5 +27,12 @@
 - These keys are themselves protected: either encrypted with a key derived from a random UID that is stored in a secure, on-chip area, or encrypted with a key derived from the UID and the PIN
 - Hardware-enforced maximum guess rate of 80 ms/try
 
+## Conclusion
+- Many situations require that some crucial device be in enemy hands
+- True security in such cases is almost impossible
+- More than in most situations, this shows the role of economics: the attack has to be cost-effective
+- This is usually the best approach: make the security good enough
+
+
 
 
