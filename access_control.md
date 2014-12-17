@@ -7,6 +7,14 @@ some Linux) have more general Access Control Lists
 * ACLs are explicit lists of permissions for different parties
 * Wildcards are often used
 
+#### Sample ACL
+```
+smb.* rwx
+4187-ta.* rwx
+*.faculty rx
+*.* x
+```
+
 ### Permissin Checking Alorightm
 ```
 if curr_user.uid == file.uid
