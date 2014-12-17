@@ -10,5 +10,6 @@
 
 Watch the [Stuxnet TED talk](http://www.ted.com/talks/ralph_langner_cracking_stuxnet_a_21st_century_cyberweapon?language=en)
 
+* One of the most sophisticated known cyber attackers
 * Virus can be spread in form of worms
 * Major targets are developed countries
