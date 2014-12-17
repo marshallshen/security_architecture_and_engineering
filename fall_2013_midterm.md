@@ -16,7 +16,15 @@ Explain.
 3. Suppose I want to build an online exam server: students take the exam via their own web browsers on their own computers. Also assume that for some reason I’m not worried about students collaborating via their computers; consider only the questions I’m explicitly asking.
 
     (a) (10 points) What sort of authentication should be used? Justify your choice.
+    
+    > Any solution has to rely on existing hardware. It’s not possible to use biometrics or smart card readers, since (a) most students’ computers don’t have such things, and (b) remote, unobserved biometrics aren’t a good idea. This means we’re back to passwords, client side certificates, or some form of two-factor authentication. This could be done with client-side software or with a hardware token (If you specify this latter, you need to state this explicity.)
+Note that this isn’t the weak link: the risk is someone else taking the exam with the cooperation of the student who should take it; such a student could share any necessary authentication details.
+
     (b) (5 points) Discuss other sorts of programming precautions you should take in building the server.
+    
+    > Apart from the usual, the big risk here is someone seeing another student’s answers. The best solution is to encrypt all answers in the instructor’s public key.
+
+    > The usual attacks, such as bad input values and buffer overflows, must be considered.
 
 4. (20 points) There’s a new multiplayer game out that runs on distributed systems that share a file system, e.g., something like the CLIC Lab. There several different roles here:
 
