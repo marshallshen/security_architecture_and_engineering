@@ -11,3 +11,6 @@
 * `autorun.inf` in flash drive is honored by many OS systems.
 
 ### Macro Virus
+* Viruses can be written in any sufficiently-powerful language
+* Word documents (also Powerpoint presentations and Excel
+spreadsheets) can thus spread viruses, `using Microsoft Macro language`.
