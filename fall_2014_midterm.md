@@ -9,6 +9,15 @@ other JPGs—but JPGs can arrive via email (including encrypted email), social n
 
 2. (15 points) To aid in generating random cryptographic keys, every employee of a company has a mag stripe card and a keyboard with a mag stripe reader. To generate a new key, the employee swipes the card; a secret value from the card is cryptographically combined with the time of day. (Assume that the combination algorithm is cryptographically correct.) Outline some possible attacks against this system. If you need to make any assumptions, state them explicitly—and make sure that they’re plausible.
 
+> A keystroke logger can capture the key as it’s being read in. Anyone with even brief access to the card can copy it.
+
+> Alternatively, the stripe could be overwritten with a new, known value. An employee could swipe a different, and perhaps more convenient card; it may not have enough random digits.
+
+> IF the time is controlled by, say, NTP or other network protocol, the attacker can control the time and
+replay previous values.
+
+> Note: I confess that when I wrote “time of day”, I was thinking of the Unix gettimeofday() system call, which returns the amount of time, in microseconds, since the “epoch”—00:00:00 Jan 1, 1970, UTC. This means that someone doing something at the same time each day isn’t really a threat. However, that didn’t really affect anything in the grading.
+
 3. (20 points) Consider the design of a distributed computer system where the components are connected by an ordinary network and the user workstations have no privileged operations. Effectively, each user is root or Administrator on his or her machine. Instead, there are a few privileged computers that implement the file system, etc. Give at least two of the security challenges of this design? How would
 you solve these problems?
 
