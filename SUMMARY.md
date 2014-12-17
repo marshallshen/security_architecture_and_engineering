@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Malware](malware.md)
    * Worm
+   * Virus
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
    * [Hardware Crypto](hardware_crypto.md)
