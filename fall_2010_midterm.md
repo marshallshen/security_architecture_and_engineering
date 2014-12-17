@@ -45,5 +45,20 @@ mail sent to me.
 > It will be directly invoked by possible attackers, which means that they can control the environment
 and not just the inputs..
 
+## 4
+There’s a very small village on the border to another country. Rather than staff an immigration booth, two different biometric schemes are proposed to control a turnstile. Will the schemes work? Explain.
+(Ignore issues of whether or not someone could just climb over or go around the fence. I’m also not interested in things like customs; the question is about the security of the schemes I describe.)
+
+(a) (5 points) People walk in to the turnstile; a camera looks at their faces and decides whether or not to admit them.
+
+> Biometrics do not do well at finding matches against large sets of data, so it will not work well. Facial recognition is not very accurate.
+
+(b) (5 points) People insert use a mag stripe card with their name and digitized fingerprints; if their fingerprints match what’s on the card, the name field is used to decide if they’re allowed to enter.
+
+> If the digitized fingerprints are digitally signed, this is a pretty good scheme; if they’re not, it’s easy to replace the contents of the mag stripe.
+
+## 5
+Random numbers are very important in cryptography. Reportedly, the National Security Agency likes to use cryptographic algorithms, rather than strange hardware, to generate these
+
 
 
