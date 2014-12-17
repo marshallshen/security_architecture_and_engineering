@@ -9,3 +9,4 @@
 
 *  Often in credit card form factor
 *  Contains small CPU and non-volatile storage (some contain an RSA accelerator chip)
+*  
