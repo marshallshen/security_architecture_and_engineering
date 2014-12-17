@@ -31,7 +31,7 @@
 
 - Limit covert channels:
   1. bandwith-limit, cap the rate at which certain operations can be done.
-  2. add noise
+  2. add noise (randomization?)
 
 
 
