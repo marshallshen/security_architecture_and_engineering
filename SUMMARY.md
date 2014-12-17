@@ -53,6 +53,7 @@
    * [Internet of Things Architecture](internet_of_things_architecture.md)
    * [Case study: Thermostat](case_study_thermostat.md)
 * [Logging](logging.md)
+   * [Biometrics](biometrics.md)
    * [Loggin in practice](loggin_in_practice.md)
    * [Log Incidents](log_incidents.md)
    * [Case study: PHP4 web server attack](case_study_php4_web_server_attack.md)
@@ -72,5 +73,4 @@
    * [Fall 2013 Midterm](fall_2013_midterm.md)
    * [Fall 2010 Midterm](fall_2010_midterm.md)
    * [Fall 2008 Midterm](fall_2008_midterm.md)
-* [Biometrics](biometrics.md)
 
