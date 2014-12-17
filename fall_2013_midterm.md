@@ -1,6 +1,7 @@
 # Fall 2013 Midterm
 
-1. Because of the hassles of installing cryptographic software that works everywhere, some secure email
+## 1
+Because of the hassles of installing cryptographic software that works everywhere, some secure email
 web sites (e.g., hushmail.com) offer “downloadable crypto”: a web page with Java or Javascript that implements the necessary functions to send and receive secure email. There’s a serious risk, though: you don’t know what you’re executing. Is it the real crypto code, or does it have a back door installed by the provider because the government ordered them to?
 
     (a) (10 points) To avoid this problem, a new site decides to offer digitally-signed crypto. That is, the
@@ -19,7 +20,8 @@ browsers can or cannot do.)
     * Allow for signatures by trusted endorsers, e.g., civil liberties groups. If they audit the code and find it benign, they can sign it, too.
     * Check that the code hasn’t changed. This doesn’t help if the back door has been there for a long time; it does let you know if there’s been a change since you started using it.
 
-2. (20 points) The MTA wants to replace the Metrocard used to pay subway and bus fares in New York. Suppose that someone suggested using iris scans: when you board a bus or enter a turnstile, something scans your eye and deducts the appropriate fare from your account. Is this a good architecture or not? Explain.
+## 2
+(20 points) The MTA wants to replace the Metrocard used to pay subway and bus fares in New York. Suppose that someone suggested using iris scans: when you board a bus or enter a turnstile, something scans your eye and deducts the appropriate fare from your account. Is this a good architecture or not? Explain.
 
 > No, it isn’t.
 - It would probably be too slow
@@ -30,8 +32,8 @@ browsers can or cannot do.)
 
 > You would certainly need a system to preload user accounts wit
 
-
-3. Suppose I want to build an online exam server: students take the exam via their own web browsers on their own computers. Also assume that for some reason I’m not worried about students collaborating via their computers; consider only the questions I’m explicitly asking.
+## 3
+Suppose I want to build an online exam server: students take the exam via their own web browsers on their own computers. Also assume that for some reason I’m not worried about students collaborating via their computers; consider only the questions I’m explicitly asking.
 
     (a) (10 points) What sort of authentication should be used? Justify your choice.
     
