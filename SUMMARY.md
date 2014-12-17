@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Access Control](access_control.md)
-* Authentication
+* [Authentication](authentication.md)
 * [Biometrics](biometrics.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
