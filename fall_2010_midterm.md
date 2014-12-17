@@ -6,6 +6,4 @@
 
 > It is worth noting that for exams with more serious security threats — e.g., the LSAT (Law School Admission Test), there are stringent authentication measures, up to and including fingerprinting.
 
-2. You’re working in software development environment for a medium-sized company. There is a development
-copy of the code; there is also a separate copy for each release in the field, plus a patched version
-of each release that incorporates bug fixes.
+2. You’re working in software development environment for a medium-sized company. There is a development copy of the code; there is also a separate copy for each release in the field, plus a patched version of each release that incorporates bug fixes.
