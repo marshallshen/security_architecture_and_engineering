@@ -12,8 +12,6 @@
 * There are companies that professionally crack computer chips for buinsess (chipworks.com).
 
 ### Smart Cards
-![smart card](images/smart_card.png)
-
 *  Often in credit card form factor
 *  Contains small CPU and non-volatile storage (some contain an RSA accelerator chip)
 * In stored value systems, the attacker wants to add more money to the card
