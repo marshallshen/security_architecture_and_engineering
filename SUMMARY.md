@@ -1,6 +1,10 @@
 # Summary
 
 * [Introduction](README.md)
+* [Biometrics](biometrics.md)
+* [Crypto Engineering](crypto_engineering.md)
+   * [Software Crypto](software_crypto.md)
+   * [Hardware Crypto](hardware_crypto.md)
 * [Malware](malware.md)
    * [Virus](virus.md)
    * [Worm](worm.md)
@@ -9,10 +13,6 @@
    * [Rootkits](rootkits.md)
    * [Anti-virus software](anti-virus_software.md)
    * [Inside popular software](inside_popular_software.md)
-* [Biometrics](biometrics.md)
-* [Crypto Engineering](crypto_engineering.md)
-   * [Software Crypto](software_crypto.md)
-   * [Hardware Crypto](hardware_crypto.md)
 * [Protecting Clients](protecting_clients.md)
 * [Security and Usability](security_and_usability.md)
    * [User Interface (UI)](user_interface_ui.md)
