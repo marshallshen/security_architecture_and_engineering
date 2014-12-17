@@ -38,3 +38,6 @@ bar
 ### First Virus
 * A boot-sector virus written by a 15-year-old.
 
+### Zero Virus
+> A zero-day virus (also known as zero-day malware or next-generation malware) is a previously unknown computer virus or other malware for which specific antivirus software signatures are not yet available.
+
