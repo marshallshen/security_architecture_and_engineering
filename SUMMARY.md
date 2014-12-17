@@ -64,5 +64,5 @@
 * Exams
    * [Fall 2014 Midterm](fall_2014_midterm.md)
    * [Fall 2013 Midterm](fall_2013_midterm.md)
-   * Fall 2010 Midterm
+   * [Fall 2010 Midterm](fall_2010_midterm.md)
 
