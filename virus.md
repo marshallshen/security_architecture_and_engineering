@@ -14,3 +14,7 @@
 * Viruses can be written in any sufficiently-powerful language
 * Word documents (also Powerpoint presentations and Excel
 spreadsheets) can thus spread viruses, `using Microsoft Macro language`.
+
+### Virus-Spreading Patterns
+* Boot-sector viruses spread in affinity groups -- floppies were a normal means of communication before networks.
+* 
