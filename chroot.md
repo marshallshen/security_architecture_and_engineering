@@ -18,6 +18,8 @@
     * When `sudo su` within sub directory, can escape from `chroot()`.
 - Doesn't protect network identity
 
+![chroot](images/chroot.png)
+
 #### Setup chroot
 ```
 # mkdir /usr/sandbox /usr/sandbox/bin
