@@ -8,7 +8,7 @@
    * [Writing Virus](writing_virus.md)
    * [Rootkits](rootkits.md)
    * [Anti-virus software](anti-virus_software.md)
-   * Inside popular software
+   * [Inside popular software](inside_popular_software.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
    * [Hardware Crypto](hardware_crypto.md)
