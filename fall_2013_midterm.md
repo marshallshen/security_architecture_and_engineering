@@ -9,3 +9,6 @@ limitations.)
 
     (b) (10 points) Design a better scheme that in principle can work. (Again, ignore the question of what
 browsers can or cannot do.)
+
+2. (20 points) The MTA wants to replace the Metrocard used to pay subway and bus fares in New York. Suppose that someone suggested using iris scans: when you board a bus or enter a turnstile, something scans your eye and deducts the appropriate fare from your account. Is this a good architecture or not?
+Explain.
