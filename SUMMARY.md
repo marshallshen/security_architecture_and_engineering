@@ -69,8 +69,8 @@
    * [Network Operation Center](network_operation_center.md)
    * [Router Link Weakness](router_link_weakness.md)
    * [Remote Access](remote_access.md)
-   * [General Principle](general_principle.md)
    * Question: store credit card number in database?
+   * [General Principle](general_principle.md)
 * [Exams](exams.md)
    * [Fall 2014 Midterm](fall_2014_midterm.md)
    * [Fall 2013 Midterm](fall_2013_midterm.md)
