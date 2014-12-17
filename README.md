@@ -20,4 +20,5 @@ Read
 ### Security Engineering
 * Putting the pieces together
 * Tradeoffs
-* Balancing cost, security, usability, acceptability, and more
+* Balancing cost, security, usability, acceptability..
+
