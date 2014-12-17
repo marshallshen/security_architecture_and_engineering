@@ -48,10 +48,10 @@ Note that this isn’t the weak link: the risk is someone else taking the exam w
 ## 4
 (20 points) There’s a new multiplayer game out that runs on distributed systems that share a file system, e.g., something like the CLIC Lab. There several different roles here:
 
-    * The game company, which is constantly adding new features to the already-installed game
-    * The local game administrator
-    * The game itself, with secret files, score files, etc.
-    * Many individual players; new ones can join at any time
+* The game company, which is constantly adding new features to the already-installed game
+* The local game administrator
+* The game itself, with secret files, score files, etc.
+* Many individual players; new ones can join at any time
 plus of course the site’s usual system administrators. Describe the access control and permission architecture
 you would use.
     
@@ -63,3 +63,5 @@ you would use.
 
 > First, the game can auto-install those. Second,
 the game administrator can download them and manually install them. Third, the game company can do it directly. In the first two cases, the updates should be digitally signed. In the third situation, the game company should be in the appropriate group to overwrite those files.
+
+
