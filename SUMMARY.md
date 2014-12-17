@@ -28,7 +28,7 @@
    * [Contents and Scripts](contents_and_scripts.md)
 * [Confinements](confinements.md)
    * [chroot](chroot.md)
-   * JVM
+   * [JVM](jvm.md)
    * [Network Identity](network_identity.md)
    * [Virtual Machine](virtual_machine.md)
    * Sandbox
