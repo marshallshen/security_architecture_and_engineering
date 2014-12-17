@@ -22,8 +22,14 @@ Read
 * Tradeoffs
 * Balancing cost, security, usability, acceptability..
 
-### How to Think About Security
+### How to Think About `Security`
 * Security is a property of the overall design
 * You do not get security by sprinkling on crypto or by forcing people to change their passwords frequently
 * Those can sometimes help—but bad guys go around strong security, not through it
 * Security is a systems property
+
+### How to Think About `Insecurity`
+* The bad guys don’t follow the rules
+* To understand how to secure a system, you have to understand what sort of attacks are possible
+* Note that that is not the same as actually launching them. . .
+
