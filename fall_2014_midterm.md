@@ -20,6 +20,11 @@ replay previous values.
 
 3. (20 points) Consider the design of a distributed computer system where the components are connected by an ordinary network and the user workstations have no privileged operations. Effectively, each user is root or Administrator on his or her machine. Instead, there are a few privileged computers that implement the file system, etc. Give at least two of the security challenges of this design? How would you solve these problems?
 
+> This is a message-passing system, with all that implies. You can’t trust anything coming over the network, and in particular you can’t believe any assertions of identity, so you have to rely on cryptographic authentication. Also, since this is all network-based, you need to be very careful about parsing
+input, to avoid standard network attacks.
+
+> There are also network-based threats, such as assorted ways to divert traffic or be a “man in the middle”. These are defeated by bilateral authentication: the user has to authenticate the server, and vice-versa, before any sensitive information is sent. Standard cryptographic techniques can be used.
+
 4. You’re designing the authentication system for a multi-level secure system. The system will hold data at all levels from `Unclassified` to `Top Secret`. (For convenience, I’ve included the lattice diagram
 from class.)
 
