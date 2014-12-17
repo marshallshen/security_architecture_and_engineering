@@ -13,3 +13,8 @@
 * Plugins, applets, etc., are disabled
 * Cookies aren’t shared with the sandbox
 * No pop-ups, new browser windows, etc.
+
+### Windows Sandboxing
+* Some apps (e.g., Internet Explorer, Adobe Acrobat Reader) split into trusted/untrusted halves; the untrusted half is sandboxed
+* Many add-on programs to run arbitrary applications in a sandbox
+* “Metro” apps on Windows 8 are sandboxed
