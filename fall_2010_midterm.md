@@ -40,5 +40,10 @@ mail sent to me.
 
 > Make it readable only by ”owner”. It has to be online; it can’t itself be encrypted.
 
+(c) (5 points) Suppose, instead, that I write a setuid program that everyone will run to send me mail. What are the additional risks of this alternative? (Assume that everyone else will cooperate and actually run it to send me mail.)
+
+> It will be directly invoked by possible attackers, which means that they can control the environment
+and not just the inputs..
+
 
 
