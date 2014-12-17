@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Protecting Clients](protecting_clients.md)
 * [Malware](malware.md)
    * [Virus](virus.md)
    * [Worm](worm.md)
@@ -14,6 +13,7 @@
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
    * [Hardware Crypto](hardware_crypto.md)
+* [Protecting Clients](protecting_clients.md)
 * [Security and Usability](security_and_usability.md)
    * [User Interface (UI)](user_interface_ui.md)
    * [Passwords](passwords.md)
