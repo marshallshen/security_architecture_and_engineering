@@ -15,4 +15,4 @@ Read
 ### Security Architecture
 * How to put the pieces together?
 * How to spot the risky parts?
-* How to evaluate an architecture
+* How to evaluate an architecture?
