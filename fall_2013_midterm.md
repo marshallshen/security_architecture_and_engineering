@@ -46,7 +46,8 @@ Note that this isn’t the weak link: the risk is someone else taking the exam w
 
     > The usual attacks, such as bad input values and buffer overflows, must be considered.
 
-4. (20 points) There’s a new multiplayer game out that runs on distributed systems that share a file system, e.g., something like the CLIC Lab. There several different roles here:
+## 4
+(20 points) There’s a new multiplayer game out that runs on distributed systems that share a file system, e.g., something like the CLIC Lab. There several different roles here:
 
     * The game company, which is constantly adding new features to the already-installed game
     * The local game administrator
