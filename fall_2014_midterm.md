@@ -13,3 +13,9 @@ stripe card and a keyboard with a mag stripe reader. To generate a new key, the 
 card; a secret value from the card is cryptographically combined with the time of day. (Assume that the
 combination algorithm is cryptographically correct.) Outline some possible attacks against this system.
 If you need to make any assumptions, state them explicitly—and make sure that they’re plausible.
+
+3. (20 points) Consider the design of a distributed computer system where the components are connected
+by an ordinary network and the user workstations have no privileged operations. Effectively, each user
+is root or Administrator on his or her machine. Instead, there are a few privileged computers that
+implement the file system, etc. Give at least two of the security challenges of this design? How would
+you solve these problems?
