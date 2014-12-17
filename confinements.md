@@ -3,7 +3,14 @@
 > Why Confinements (Separated Components)
 * Isolation components to ensure security. 
 * If the machine is compromised, the privileged will be set up `against` you.
-* Limit each application to `a small subset` of the system's resources.
+* Limit each application to `a small subset` of the system's `resources`.
+
+> Resources to protect
+* CPU time
+* Real and Virtual memory
+* Disk space
+* Network Identity
+* Network Access rights...
 
 ## JVM
 - C code: compile to assembly to run on CPU.
