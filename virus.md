@@ -19,6 +19,18 @@
 spreadsheets) can thus spread viruses, `using Microsoft Macro language`.
 * Word Macro viruses spread in ordinary business!
 
+#### E.g Latex Virus
+Almost works - but the program can't open file in other directories..
+```
+\documentclass{article}
+\begin{document}
+Foo
+\immediate\openout 3 infectedfile.exe
+\immediate\write 3{infection}
+bar
+\end{document}
+```
+
 ### Virus-Spreading Patterns
 * Boot-sector viruses spread in affinity groups -- floppies were a normal means of communication before networks.
 * Program viruses spread by people sharing software, `often improper or illegal`.
