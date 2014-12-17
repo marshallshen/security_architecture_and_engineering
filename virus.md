@@ -7,3 +7,5 @@
 *  It may carry an extra “payload” that performs other functions
 
 ### Boot sector virus
+### Infected Flash Drive
+* `autorun.inf`
