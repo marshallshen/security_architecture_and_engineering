@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Malware
 * [Crypto Engineering](crypto_engineering.md)
    * [software crypto](software_crypto.md)
    * [hardware crypto](hardware_crypto.md)
@@ -38,7 +39,6 @@
    * [Embedded Systems (Smart Devices)](embedded_systems_smart_devices.md)
    * [Internet of Things Architecture](internet_of_things_architecture.md)
    * [Case study: Thermostat](case_study_thermostat.md)
-* Malware
 * [Logging](logging.md)
    * [Loggin in practice](loggin_in_practice.md)
    * [Log Incidents](log_incidents.md)
