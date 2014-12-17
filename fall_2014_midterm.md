@@ -34,11 +34,11 @@ from class.)
 
     (a) (10 points) One proposal is to use passwords; that, though, requires a password file. One group suggests labeling the password file as "High, PW"; another group suggests "Low, PW". Give one advantage of each possibility.
 
-    > The “no read up” mechanism means that no untrusted applications can read a "High, PW" file, thus protecting your password file. The “no write down” property, on the other hand, prevents any applications from writing new entries to a password file labeled "Low, PW".
+> The “no read up” mechanism means that no untrusted applications can read a "High, PW" file, thus protecting your password file. The “no write down” property, on the other hand, prevents any applications from writing new entries to a password file labeled "Low, PW".
     
     (b) (10 points) A third group suggests that passwords alone are a bad idea and that they should be supplemented with a time-based token such as a SecureID card. These cards require a database of keys, one per card. Again, give one advantage of each of the choices above.
 
-    > The answers are basically the same. However, “no read up” is more important here than for passwords, because what would be exposed is the actual keys, rather than just hashed passwords.
+> The answers are basically the same. However, “no read up” is more important here than for passwords, because what would be exposed is the actual keys, rather than just hashed passwords.
 The replay prevention aspect of the SecurID tokens is not relevant to the question.
 
 ![auth_system](images/auth_system.png)
