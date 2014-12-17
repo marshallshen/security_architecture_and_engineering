@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* Access Control
 * [Biometrics](biometrics.md)
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
@@ -68,7 +69,6 @@
    * [Router Link Weakness](router_link_weakness.md)
    * [Remote Access](remote_access.md)
    * [General Principle](general_principle.md)
-* Access Control
 * [Exams](exams.md)
    * [Fall 2014 Midterm](fall_2014_midterm.md)
    * [Fall 2013 Midterm](fall_2013_midterm.md)
