@@ -9,4 +9,6 @@
 
 *  Often in credit card form factor
 *  Contains small CPU and non-volatile storage (some contain an RSA accelerator chip)
-*  
+* In stored value systems, the attacker wants to add more money to the card
+* Alternatively, the attacker wants to extract the secret, to permit counterfeiting of more cards
+* If an authentication token is locked by a PIN, the attacker wants to discover or replace the PIN
