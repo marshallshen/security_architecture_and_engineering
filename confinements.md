@@ -12,8 +12,6 @@
 * Network Identity
 * Network Access rights...
 
-
-
 ## Limits of isolation
 - Trade-off: isolation means more security and more complexity.
 - "No read up, no write down": communicate IO down using something other than "write". Example: create and delete files in a shared directory.
