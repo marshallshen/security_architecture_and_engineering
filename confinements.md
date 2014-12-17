@@ -13,9 +13,6 @@
 * Network Access rights...
 
 
-## Virtual Machine
-
-
 
 ## Limits of isolation
 - Trade-off: isolation means more security and more complexity.
