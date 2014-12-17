@@ -29,5 +29,16 @@ Other permissions, such as ’x’, aren’t really relevant here|
 ```
 
 ## 3
+Suppose (in an environment with no network email) I want to be able to encrypt email sent to me, but (for some reason) without using public key cryptography. Instead, I write a program that processes all
+mail sent to me.
+
+(a) (5 points) What are the risks I run?
+
+> The program has to run as me while accepting input from others; this is difficult. The key file must be online; if the program is compromised, the key to all encrypted email will be revealed.
+
+(b) (5 points) This program needs access to an encryption key. How should this key be protected?
+
+> Make it readable only by ”owner”. It has to be online; it can’t itself be encrypted.
+
 
 
