@@ -6,3 +6,6 @@ web sites (e.g., hushmail.com) offer “downloadable crypto”: a web page with 
     (a) (10 points) To avoid this problem, a new site decides to offer digitally-signed crypto. That is, the
 code they send your browser will be digitally signed and will be accompanied by a certificate. This does not solve the problem. Explain why it fails. (Assume that the browser is in fact capable of verifying such signatures. This question is about security architecture, not implementation
 limitations.)
+
+    (b) (10 points) Design a better scheme that in principle can work. (Again, ignore the question of what
+browsers can or cannot do.)
