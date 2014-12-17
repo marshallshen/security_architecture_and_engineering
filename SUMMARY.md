@@ -4,6 +4,7 @@
 * [Malware](malware.md)
    * Worm
    * Virus
+   * Trojan Horse
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
    * [Hardware Crypto](hardware_crypto.md)
