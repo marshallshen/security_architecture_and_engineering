@@ -3,6 +3,12 @@
 - Set up a subdirectory to be the file system of the entire file tree.
 - Prevent `cd ../` attack.
 
+### Summary of Chroot
+* It’s a good, but imperfect means of restricting file access
+* It’s fairly useless against root
+* It doesn’t provide other sorts of isolation
+*  Setting up a usable environment is more work than you might think
+
 ### Challenge
 - Need `entire` file system set up within the subtree.
 - Still vulnerable to root compromise
