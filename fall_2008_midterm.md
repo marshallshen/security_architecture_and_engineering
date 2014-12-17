@@ -46,8 +46,16 @@ access. I gave full credit for people who made that mistake, even though I think
 > Wrong answer. First — if there’s a penetration (perhaps a buffer overflow), the injected code can revert to the real UID, so there’s no protection. Second, the web files of all other browser users on the system are at risk if a single user’s browser is penetrated.
 
 ## 6
-(15 points) Suppose a system administrator could insert filters — whatever programs he or she wished
-— in front of any or all vulnerable listeners in a message-passing system.
+(15 points) Suppose a system administrator could insert filters — whatever programs he or she wished — in front of any or all vulnerable listeners in a message-passing system.
+
+a. (5 points) What are the advantages of this from a security perspective?
+
+> These filters form a sort of firewall in front of the receiver. They can block unwanted or unauthorized messages.
+
+b. (10 points) What are the very real practical difficulties?
+
+> You have to know the exact semantics of every receiver for this to be useful. Potentially, there are very many of them.
+
 
 
 
