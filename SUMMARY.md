@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Malware](malware.md)
-   * Worm
+   * [Worm](worm.md)
    * Virus
    * Trojan Horse
 * [Crypto Engineering](crypto_engineering.md)
