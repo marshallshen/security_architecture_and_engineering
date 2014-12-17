@@ -15,9 +15,7 @@
 
 ## Virtual Machine
 
-## Sandbox
-- HTML5 iframe is sandboxed.
-- Mac App is sandboxed.
+
 
 ## Limits of isolation
 - Trade-off: isolation means more security and more complexity.
