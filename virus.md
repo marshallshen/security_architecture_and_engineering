@@ -1,4 +1,5 @@
 # Virus
+> Spread across `programs`
 
 * An “Infected” program (or floppy)
 * When executed, it copies itself to other places of a system.
