@@ -7,8 +7,17 @@ web sites (e.g., hushmail.com) offer “downloadable crypto”: a web page with 
 code they send your browser will be digitally signed and will be accompanied by a certificate. This does not solve the problem. Explain why it fails. (Assume that the browser is in fact capable of verifying such signatures. This question is about security architecture, not implementation
 limitations.)
 
+    > A digital signature of the code only proves the code’s authenticity, not that the code is benign.
+If the government ordered the provider to insert a back door, it would presumably also order the
+provider to digitally sign the new one
+
     (b) (10 points) Design a better scheme that in principle can work. (Again, ignore the question of what
 browsers can or cannot do.)
+
+    > There are several possible answers here. Among them:
+    
+    * Allow for signatures by trusted endorsers, e.g., civil liberties groups. If they audit the code and find it benign, they can sign it, too.
+    * Check that the code hasn’t changed. This doesn’t help if the back door has been there for a long time; it does let you know if there’s been a change since you started using it.
 
 2. (20 points) The MTA wants to replace the Metrocard used to pay subway and bus fares in New York. Suppose that someone suggested using iris scans: when you board a bus or enter a turnstile, something scans your eye and deducts the appropriate fare from your account. Is this a good architecture or not? Explain.
 
