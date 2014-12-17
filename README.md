@@ -16,3 +16,8 @@ Read
 * How to put the pieces together?
 * How to spot the risky parts?
 * How to evaluate an architecture?
+
+### Security Engineering
+* Putting the pieces together
+* Tradeoffs
+* Balancing cost, security, usability, acceptability, and more
