@@ -11,7 +11,7 @@
 > My coffee maker has CPU, can attacker launch any worthwhile attack to my coffee maker?
 - What is threat model?
 
-> Attack against smart tvs - send malicious TV programs to your TV - now that's a valuable attack! Captain midnight attack (TODO)
+> Attack against smart tvs - send malicious TV programs to your TV - now that's a valuable attack! [Captain midnight attack](http://en.wikipedia.org/wiki/Captain_Midnight_%28HBO%29).
 
 > Attack against `tire pressure sensor`: tire pressure sensor being put in the car by manufacterers. UC San Deigo researchers built a transmitter to confuse pressure sensor to notify drivers that the tire pressure is low.
 
