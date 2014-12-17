@@ -22,3 +22,10 @@
 * MTA Metrocard: central database controlled
 * Washington D.C farecard: the card itself knows its value. No protection against theft or counterfeiting.
 
+## iPhone
+- All content is encrypted with one of a set of randomly-generated AES keys
+- These keys are themselves protected: either encrypted with a key derived from a random UID that is stored in a secure, on-chip area, or encrypted with a key derived from the UID and the PIN
+- Hardware-enforced maximum guess rate of 80 ms/try
+
+
+
