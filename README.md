@@ -31,5 +31,5 @@ Read
 ### How to Think About `Insecurity`
 * The bad guys don’t follow the rules
 * To understand how to secure a system, you have to understand what sort of attacks are possible
-* Note that that is not the same as actually launching them. . .
+* Note that that is not the same as actually launching them.
 
