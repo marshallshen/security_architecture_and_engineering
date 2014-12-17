@@ -7,7 +7,7 @@
 * Programs sold via Apple’s App Store must use sandboxing
 
 ### HTML5 Sandboxing
-* HTML5 allows IFRAMEs to be sandboxed:
+* HTML5 allows IFRAMEs to be sandboxed
 * Plugins, applets, etc., are disabled
 * Cookies aren’t shared with the sandbox
 * No pop-ups, new browser windows, etc.
