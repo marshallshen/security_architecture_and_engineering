@@ -13,6 +13,6 @@ Read
 * What is the assurance associated with them?
 
 ### Security Architecture
-* How to put the pieces together
-* How to spot the risky parts
+* How to put the pieces together?
+* How to spot the risky parts?
 * How to evaluate an architecture
