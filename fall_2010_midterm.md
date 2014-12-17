@@ -67,3 +67,5 @@ Random numbers are very important in cryptography. Reportedly, the National Secu
 (b) (10 points) What else do they need to do to avoid serious risks?
 
 > They need to pick a true-random seed, and they need to make sure that no insiders and steal this seed.
+
+
