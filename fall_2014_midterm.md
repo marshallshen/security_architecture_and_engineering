@@ -16,5 +16,6 @@ you solve these problems?
 4. You’re designing the authentication system for a multi-level secure system. The system will hold data at all levels from `Unclassified` to `Top Secret`. (For convenience, I’ve included the lattice diagram
 from class.)
 
-(a) (10 points) One proposal is to use passwords; that, though, requires a password file. One group suggests labeling the password file as <High, PW>; another group suggests hLow, PWi. Give one advantage of each possibility
+    (a) (10 points) One proposal is to use passwords; that, though, requires a password file. One group suggests labeling the password file as "High, PW"; another group suggests "Low, PW". Give one advantage of each possibility
+    (b) (10 points) A third group suggests that passwords alone are a bad idea and that they should be supplemented with a time-based token such as a SecureID card. These cards require a database of keys, one per card. Again, give one advantage of each of the choices above.
 
