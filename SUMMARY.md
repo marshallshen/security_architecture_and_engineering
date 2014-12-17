@@ -5,7 +5,7 @@
    * Worm
 * [Crypto Engineering](crypto_engineering.md)
    * [Software Crypto](software_crypto.md)
-   * [hardware crypto](hardware_crypto.md)
+   * [Hardware Crypto](hardware_crypto.md)
 * [Security and Usability](security_and_usability.md)
    * [User Interface (UI)](user_interface_ui.md)
    * [Passwords](passwords.md)
